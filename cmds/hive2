@@ -1,0 +1,57 @@
+set role admin;
+create database if not exists test_inceptor;
+use test_inceptor;
+
+drop table if exists table_txt;
+create external table table_txt(id string,val1 string,val2 string)  row format delimited fields terminated by ',' location '/tmp/test_inceptor/data';
+
+drop table if exists table_ram;
+create table if not exists table_ram (id string,val1 string,val2 string) tblproperties('cache'='ram');
+insert overwrite table table_ram select * from table_txt;
+
+drop table if exists table_orc;
+create table if not exists table_orc stored as orc as select * from table_txt;
+
+drop table if exists table_rc;
+create table if not exists table_rc stored as rcfile as select * from table_txt;
+
+drop table if exists table_hbase;
+create table if not exists table_hbase(
+id string,
+val1 string,
+val2 string
+)
+row format delimited collection items terminated by '|'
+stored by 'org.apache.hadoop.hive.hbase.HBaseStorageHandler'
+with serdeproperties('hbase.columns.mapping'=':key,f:a,f:b')
+tblproperties('hbase.table.name'='test_inceptor.test_inceptor_hbase');
+
+insert overwrite table table_hbase select * from table_txt;
+
+drop table if exists table_hyperbase;
+create table if not exists table_hyperbase(
+id string,
+val1 string,
+val2 string
+)
+row format delimited collection items terminated by '|'
+stored by 'io.transwarp.hyperdrive.HyperdriveStorageHandler'
+with serdeproperties('hbase.columns.mapping'=':key,f:a,f:b')
+tblproperties('hbase.table.name'='test_inceptor.test_inceptor_hyperbase');
+
+insert overwrite table table_hyperbase select * from table_txt;
+
+
+drop table if exists hbase_index_test;
+create external table hbase_index_test(
+  id string,
+  val1 string,
+  val2 string
+)
+row format delimited collection items terminated by '|'
+stored by 'org.apache.hadoop.hive.hbase.HBaseStorageHandler'
+with serdeproperties('hbase.columns.mapping'=':key,f:a,f:b')
+tblproperties('hbase.table.name'='test_inceptor.hbase_index_test');
+
+insert overwrite table hbase_index_test select * from table_txt;
+
