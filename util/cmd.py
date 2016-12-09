@@ -13,7 +13,9 @@ def run_all_check_command(command_list):
 
 def check_status(command, stat, out):
     lw.Logger().getLogger().info("COMMAND: " + command + ", STATUS: " + str(stat) + ", OUTPUT: " + out)
-    list = [command, "SUCCEEDED" if stat == 0 else "FAILED"]
+    if command.__contains__("echo"):
+        command = command.split("echo")[1].split("|")[0]
+    list = [command.strip(), "SUCCEEDED" if stat == 0 else "FAILED"]
     return list
 
 def createDir(dirPath):

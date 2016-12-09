@@ -1943,3 +1943,15 @@
 2016-12-03 13:23:55,645 test.py[line:63] INFO roleType: DISCOVER_WORKER, hostName: tw-suse2204, status: CREATED
 2016-12-03 13:23:55,645 test.py[line:63] INFO roleType: INCEPTOR_RSTUDIO, hostName: tw-suse2205, status: INSTALLED
 2016-12-03 13:25:28,055 cmd.py[line:15] INFO COMMAND: kinit zookeeper/centos1 -kt /etc/zookeeper1/zookeeper.keytab, STATUS: 32512, OUTPUT: sh: kinit: command not found
+2016-12-09 14:07:53,115 cmd.py[line:15] INFO COMMAND: kinit zookeeper/centos1 -kt /etc/zookeeper1/zookeeper.keytab, STATUS: 32512, OUTPUT: sh: kinit: command not found
+2016-12-09 14:08:42,193 cmd.py[line:15] INFO COMMAND: kinit zookeeper/centos1 -kt /etc/zookeeper1/zookeeper.keytab, STATUS: 32512, OUTPUT: sh: kinit: command not found
+2016-12-09 14:12:16,659 cmd.py[line:15] INFO COMMAND: kinit zookeeper/centos1 -kt /etc/zookeeper1/zookeeper.keytab, STATUS: 32512, OUTPUT: sh: kinit: command not found
+2016-12-09 14:14:28,302 cmd.py[line:15] INFO COMMAND: kinit zookeeper/centos1 -kt /etc/zookeeper1/zookeeper.keytab, STATUS: 32512, OUTPUT: sh: kinit: command not found
+2016-12-09 14:16:11,389 cmd.py[line:15] INFO COMMAND: kinit zookeeper/centos1 -kt /etc/zookeeper1/zookeeper.keytab, STATUS: 32512, OUTPUT: sh: kinit: command not found
+2016-12-09 14:19:49,158 cmd.py[line:15] INFO COMMAND: kinit zookeeper/centos1 -kt /etc/zookeeper1/zookeeper.keytab, STATUS: 32512, OUTPUT: sh: kinit: command not found
+2016-12-09 14:20:03,336 cmd.py[line:15] INFO COMMAND: kinit zookeeper/centos1 -kt /etc/zookeeper1/zookeeper.keytab, STATUS: 32512, OUTPUT: sh: kinit: command not found
+2016-12-09 14:21:33,290 cmd.py[line:15] INFO COMMAND: kinit zookeeper/centos1 -kt /etc/zookeeper1/zookeeper.keytab, STATUS: 32512, OUTPUT: sh: kinit: command not found
+2016-12-09 14:25:01,527 cmd.py[line:15] INFO COMMAND: kinit zookeeper/centos1 -kt /etc/zookeeper1/zookeeper.keytab, STATUS: 32512, OUTPUT: sh: kinit: command not found
+2016-12-09 14:27:54,149 cmd.py[line:15] INFO COMMAND: kinit zookeeper/centos1 -kt /etc/zookeeper1/zookeeper.keytab, STATUS: 32512, OUTPUT: sh: kinit: command not found
+2016-12-09 14:28:22,967 cmd.py[line:15] INFO COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181, STATUS: 32512, OUTPUT: sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-09 14:28:57,048 cmd.py[line:15] INFO COMMAND: kinit zookeeper/centos1 -kt /etc/zookeeper1/zookeeper.keytab, STATUS: 32512, OUTPUT: sh: kinit: command not found

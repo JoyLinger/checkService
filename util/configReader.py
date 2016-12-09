@@ -37,3 +37,14 @@ class ReadConf:
 
     def getRoleJson(self, key="role_json"):
         return self.res[key]
+
+    def getCmdList(self, key="cmd"):
+        i = 1
+        cmdList = []
+        while True:
+            newKey = key + str(i)
+            i += 1
+            if self.res.__contains__(newKey):
+                cmdList.append(self.res[newKey])
+            else:
+                return cmdList

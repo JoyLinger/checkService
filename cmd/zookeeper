@@ -1,0 +1,6 @@
+cmd1=ls /
+cmd2=create /zk-test zookeeper-test
+cmd3=get /zk-test
+cmd4=set /zk-test zk_test
+cmd5=delete /zk-test
+cmd6=ls /

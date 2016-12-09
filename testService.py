@@ -13,8 +13,12 @@ header = str(rc.get("HEADER")).split(",")
 # myLog = util.logWriter.Logger().getLogger()
 # Zookeeper
 sf.testZookeeper(this_host, header, rc)
-# HDFS
+
+# HBASE
 sf.testHbase(this_host, header, rc)
+
+# HDFS
+
 # active_nn_host = rc.get("HDFS_ACTIVENAMENODE")
 # port = rc.get("PORT")
 # nameservice = rc.get("NAMESERVICE")
