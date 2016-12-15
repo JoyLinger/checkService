@@ -1,0 +1,12 @@
+get 'func_normal','Jim'
+get 'func_normal','Jim','grade'
+count 'func_normal'
+scan 'func_normal'
+delete 'func_normal','Jim','grade'
+disable 'func_normal'
+alter 'func_normal',NAME=>'id'
+enable 'func_normal'
+describe 'func_normal'
+disable 'func_normal'
+drop 'func_normal'
+exit

@@ -30,7 +30,7 @@ header = ["roleType", "hostName", "status"]
 
 # Log
 logger_str = ""
-myLogger = util.logWriter.Logger().getLogger()
+myLogger = util.logWriter.Logger(logName="root").getLogger()
 
 
 for sts in serivce_type_list:
@@ -64,5 +64,5 @@ for sts in serivce_type_list:
             logger_str = ""
 
         # Format output
-        fos = util.formatOutput.Formatter().formatted_output(titleName, ["ROLE", "NODE", "STATE"], content_list)
+        fos = util.outputFormatter.Formatter().formatted_output(titleName, ["ROLE", "NODE", "STATE"], content_list)
         print "Formatted output string:\n", fos

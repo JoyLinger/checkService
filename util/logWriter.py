@@ -1,13 +1,10 @@
 import logging.config
-import util.configReader as cr
 
 class Logger:
 
-    rc = cr.ReadConf("conf/logSettings.conf")
-
-    def __init__(self, conf=rc.getLogConf(), name=rc.getLogName()):
-        self.conf = conf
-        self.name = name
+    def __init__(self, logName, logConf="conf/logger.conf"):
+        self.conf = logConf
+        self.name = logName
 
     def getLogger(self):
         """Returns object logger.

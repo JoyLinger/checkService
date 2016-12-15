@@ -1,0 +1,7 @@
+cmd1=hdfs dfs -mkdir -p /tmp/check_hdfs/
+cmd2=hdfs dfs -put /tmp/check_hdfs/checkHdfsStatus.txt /tmp/check_hdfs/
+cmd3=hdfs dfs -put /etc/hosts /tmp/check_hdfs/
+cmd4=hdfs dfs -get /tmp/check_hdfs/checkHdfsStatus.txt /tmp/check_hdfs/checkHdfsStatus_get.txt
+cmd5=hdfs dfs -ls /tmp/check_hdfs/
+cmd6=hdfs dfs -cat /tmp/check_hdfs/hosts
+cmd7=hdfs dfs -rm -R /tmp/check_hdfs/

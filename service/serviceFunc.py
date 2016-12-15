@@ -1,47 +1,91 @@
-import util.cmd as c
-import util.formatOutput as fo
+import util.cmdRunner as runCmd
+import util.outputFormatter as opf
 import util.configReader as cr
+import os
 
 def getCmdsFromFile(path):
+    """Return commands as list."""
     return cr.ReadConf(path).getCmdList(key="cmd")
 
-def testZookeeper(this_host, header, rc):
-    cmds = getCmdsFromFile("cmd/zookeeper")
-    hosts = str(rc.get("ZOOKEEPER")).split(",")
-    kinit = "kinit zookeeper/%s -kt /etc/zookeeper1/zookeeper.keytab" % this_host
-    for host in hosts:
-        commands = [kinit]
-        zkcli = "/usr/lib/zookeeper/bin/zkCli.sh -server %s:2181" % host
-        for cmd in cmds:
-            commands.append("echo %s | %s" % (cmd, zkcli))
-        contents = c.run_all_check_command(commands)
-        # for i in range(1, len(contents)):
-        #     contents[i][0] = cmds[i - 1]
-        res = fo.Formatter().formatted_output("ZooKeeper on %s" % host, header, contents)
-        print res
+def testZookeeper(kinit, header, hosts, logName="zk", cmdPath="cmd/zookeeper"):
+    """To test ZK and print test result.
+    :param kinit:
+    :param header:
+    :param hosts:
+    :param logName: logger in file: conf/logger.conf
+    :param cmdPath:
+    """
+    for fp in os.listdir(cmdPath):
+        cmdList = getCmdsFromFile(path="%s/%s" % (cmdPath, fp))
+        for host in hosts:
+            commands = [kinit]
+            zkcli = "/usr/lib/zookeeper/bin/zkCli.sh -server %s:2181" % host
+            for cmd in cmdList:
+                commands.append("echo %s | %s" % (cmd, zkcli))
+            contents = runCmd.run_all_check_command(commands, logName)
+            # for i in range(1, len(contents)):
+            #     contents[i][0] = cmds[i - 1]
+            res = opf.Formatter().formatted_output("ZooKeeper on %s" % host, header, contents)
+            print res
 
-def testHdfs():
-    pass
+def testHdfs(kinit, header, hosts, logName="hdfs", cmdPath="cmd/hdfs"):
+    """To test HDFS and print test result."""
+    for fp in os.listdir(cmdPath):
+        cmdList = getCmdsFromFile(path="%s/%s" % (cmdPath, fp))
+        for host in hosts:
+            commands = [kinit]
+            for cmd in cmdList:
+                commands.append(cmd)
+            contents = runCmd.run_all_check_command(commands, logName)
+            res = opf.Formatter().formatted_output("Active NameNode on %s" % host, header, contents)
+            print res
 
-def testYarn():
-    pass
+def testYarn(kinit, header, hosts, logName="yarn", cmdPath="cmd/yarn"):
+    """To test YARN and print test result."""
+    for fp in os.listdir(cmdPath):
+        cmdList = getCmdsFromFile(path="%s/%s" % (cmdPath, fp))
+        for host in hosts:
+            commands = [kinit]
+            for cmd in cmdList:
+                commands.append(cmd)
+            contents = runCmd.run_all_check_command(commands, logName)
+            res = opf.Formatter().formatted_output("Yarn on %s" % host, header, contents)
+            print res
 
-def testHbase(this_host, header, rc):
-    cmds = getCmdsFromFile(path="cmd/hbase")
-    hosts = str(rc.get("HYPERBASE_MASTER")).split(",")
-    kinit = "kinit hbase/%s -kt /etc/hyperbase1/hbase.keytab" % this_host
+# def testHbase(this_host, header, rc, logName):
+#     """To test HyperBase and print test result."""
+#     cmds = getCmdsFromFile(path="cmd/hyperbase")
+#     hosts = str(rc.get(key="HYPERBASE_MASTER")).split(",")
+#     kinit = "kinit hbase/%s -kt /etc/hyperbase1/hbase.keytab" % this_host
+#     for h in hosts:
+#         commands = [kinit]
+#         hbaseShell = "hbase --hosts %s shell |grep -v \"SLF4J\"|grep -v '^$'|grep -v \"row(s) in\"" % h
+#         for cmd in cmds:
+#             commands.append("echo %s | %s" % (cmd, hbaseShell))
+#         contents = c.run_all_check_command(commands, logName)
+#         res = opf.Formatter().formatted_output("HyperBase on %s" % h, header, contents)
+#         print res
+
+def testHyperbase(kinit, header, hosts, logName="hbase", cmdPath="cmd/hyperbase"):
+    """To test HyperBase and print test result."""
+    files = os.listdir(cmdPath)
     for h in hosts:
         commands = [kinit]
-        hbaseShell = "hbase --hosts %s shell |grep -v \"SLF4J\"|grep -v '^$'|grep -v \"row(s) in\"" % h
-        for cmd in cmds:
-            commands.append("echo %s | %s" % (cmd, hbaseShell))
-        contents = c.run_all_check_command(commands)
-        res = fo.Formatter().formatted_output("HyperBase on %s" % h, header, contents)
+        hbaseShell = "hbase --hosts %s shell" % h
+        for f in files:
+            commands.append("%s %s/%s" % (hbaseShell, cmdPath, f))
+        contents = runCmd.run_all_check_command(commands, logName)
+        res = opf.Formatter().formatted_output("HyperBase on %s" % h, header, contents)
         print res
 
-def testHive2(this_host, header, rc):
-    pass
-
-def testDiscover(this_host, header, rc):
-    pass
-
+def testInceptorServer2(kinit, header, hosts, logName="hive", cmdPath="cmd/inceptor", database="default", realm="TDH"):
+    """To test InceptorServer2 and print test result."""
+    files = os.listdir(cmdPath)
+    for h in hosts:
+        commands = [kinit]
+        beeline = "beeline -u \"jdbc:hive2://%s:10000/%s;principal=hive/%s@%s\"" % (h, database, h, realm)
+        for f in files:
+            commands.append("%s -f %s/%s" % (beeline, cmdPath, f))
+        contents = runCmd.run_all_check_command(commands, logName)
+        res = opf.Formatter().formatted_output("InceptorServer on %s" % h, header, contents)
+        print res

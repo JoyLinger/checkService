@@ -1,0 +1,630 @@
+2016-12-13 11:02:22,034 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-13 11:02:22,036 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-13 11:02:22,056 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-13 11:02:22,057 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-13 11:02:22,075 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-13 11:02:22,076 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-13 11:02:22,082 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-13 11:02:22,084 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-13 11:02:22,102 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-13 11:02:22,104 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-13 11:02:22,122 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-13 11:02:22,124 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-13 11:02:22,144 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-13 11:02:22,146 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-13 11:02:22,155 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-13 11:02:22,156 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-13 11:02:22,165 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-13 11:02:22,168 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-13 11:02:22,180 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-13 11:02:22,181 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-13 11:02:22,187 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-13 11:02:22,188 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-13 11:02:22,192 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-13 11:02:22,193 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-13 11:02:22,197 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-13 11:02:22,198 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-13 11:02:22,202 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-13 11:02:22,203 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-13 11:02:22,207 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-13 11:02:22,208 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-13 11:02:22,212 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-13 11:02:22,215 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-13 11:02:22,219 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-13 11:02:22,221 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-13 11:02:22,225 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-13 11:02:22,226 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-13 11:02:22,230 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-13 11:02:22,231 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-13 11:02:22,235 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-13 11:02:22,236 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-13 11:02:22,240 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-13 11:02:22,241 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:01,926 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 14:10:02,007 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:10:02,011 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:10:02,015 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:02,019 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:10:02,021 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:02,025 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:10:02,026 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:02,032 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:10:02,033 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:02,042 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:10:02,043 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:02,056 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:10:02,057 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:02,078 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 14:10:02,079 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:10:02,093 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:10:02,094 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:02,107 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:10:02,109 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:02,121 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:10:02,122 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:02,132 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:10:02,133 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:02,139 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:10:02,140 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:02,144 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:10:02,147 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:02,151 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 14:10:02,152 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:10:02,158 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:10:02,159 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:02,163 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:10:02,166 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:02,170 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:10:02,171 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:02,177 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:10:02,178 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:02,183 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:10:02,184 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:02,191 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:10:02,192 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:27,973 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 14:10:27,980 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:10:27,989 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:10:27,990 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:28,002 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:10:28,003 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:28,015 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:10:28,016 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:28,030 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:10:28,031 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:28,044 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:10:28,045 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:28,054 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:10:28,055 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:28,060 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 14:10:28,064 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:10:28,068 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:10:28,070 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:28,075 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:10:28,076 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:28,080 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:10:28,081 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:28,087 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:10:28,088 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:28,092 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:10:28,093 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:28,098 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:10:28,100 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:28,104 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 14:10:28,105 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:10:28,113 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:10:28,114 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:28,119 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:10:28,120 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:28,125 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:10:28,126 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:28,131 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:10:28,132 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:28,136 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:10:28,138 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:10:28,142 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:10:28,143 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:13:36,530 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 14:13:36,532 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:13:36,556 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:13:36,558 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:13:36,576 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:13:36,577 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:13:36,593 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:13:36,594 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:13:36,613 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:13:36,614 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:13:36,630 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:13:36,632 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:13:36,649 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:13:36,650 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:13:36,665 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 14:13:36,666 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:13:36,676 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:13:36,677 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:13:36,696 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:13:36,697 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:13:36,713 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:13:36,714 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:13:36,725 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:13:36,726 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:13:36,736 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:13:36,737 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:13:36,747 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:13:36,749 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:13:36,762 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 14:13:36,764 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:13:36,775 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:13:36,777 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:13:36,792 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:13:36,794 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:13:36,804 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:13:36,805 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:13:36,815 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:13:36,818 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:13:36,828 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:13:36,831 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:13:36,842 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:13:36,843 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:14:36,802 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 14:14:36,806 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:14:36,824 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:14:36,825 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:14:36,841 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:14:36,842 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:14:36,854 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:14:36,855 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:14:36,874 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:14:36,879 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:14:36,893 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:14:36,894 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:14:36,908 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:14:36,909 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:14:36,924 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 14:14:36,925 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:14:36,938 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:14:36,940 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:14:36,945 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:14:36,948 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:14:36,959 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:14:36,960 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:14:36,975 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:14:36,976 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:14:36,991 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:14:36,992 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:14:37,006 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:14:37,007 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:14:37,022 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 14:14:37,023 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:14:37,033 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:14:37,034 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:14:37,045 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:14:37,049 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:14:37,064 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:14:37,065 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:14:37,074 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:14:37,076 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:14:37,084 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:14:37,085 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:14:37,097 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:14:37,098 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:57:15,080 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 14:57:15,081 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:57:15,092 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:57:15,093 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:57:15,103 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:57:15,104 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:57:15,114 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:57:15,115 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:57:15,125 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:57:15,127 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:57:15,131 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:57:15,134 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:57:15,138 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:57:15,140 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:57:15,146 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 14:57:15,147 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:57:15,152 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:57:15,155 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:57:15,160 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:57:15,163 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:57:15,168 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:57:15,169 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:57:15,180 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:57:15,182 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:57:15,186 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:57:15,187 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:57:15,193 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:57:15,194 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:57:15,198 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 14:57:15,200 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:57:15,203 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:57:15,204 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:57:15,210 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:57:15,211 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:57:15,217 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:57:15,218 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:57:15,223 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:57:15,224 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:57:15,230 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:57:15,231 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:57:15,236 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:57:15,239 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:58:11,952 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 14:58:11,956 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:58:11,975 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:58:11,976 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:58:11,983 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:58:11,984 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:58:11,988 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:58:11,989 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:58:11,994 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:58:11,995 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:58:11,999 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:58:12,000 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:58:12,004 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 14:58:12,005 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:58:12,011 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 14:58:12,012 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:58:12,016 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:58:12,017 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:58:12,021 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:58:12,023 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:58:12,027 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:58:12,027 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:58:12,032 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:58:12,032 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:58:12,036 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:58:12,037 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:58:12,044 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 14:58:12,045 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:58:12,049 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 14:58:12,050 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:58:12,055 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:58:12,056 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:58:12,060 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:58:12,061 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:58:12,065 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:58:12,066 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:58:12,070 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:58:12,071 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:58:12,075 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:58:12,076 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 14:58:12,079 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 14:58:12,080 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:06:37,085 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 15:06:37,086 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 15:06:37,102 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 15:06:37,107 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:06:37,122 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 15:06:37,123 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:06:37,133 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 15:06:37,134 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:06:37,145 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 15:06:37,146 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:06:37,155 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 15:06:37,156 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:06:37,170 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 15:06:37,171 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:06:37,180 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 15:06:37,181 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 15:06:37,187 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 15:06:37,188 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:06:37,192 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 15:06:37,193 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:06:37,197 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 15:06:37,198 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:06:37,202 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 15:06:37,203 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:06:37,209 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 15:06:37,210 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:06:37,215 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 15:06:37,216 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:06:37,220 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 15:06:37,221 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 15:06:37,225 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 15:06:37,226 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:06:37,231 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 15:06:37,232 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:06:37,236 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 15:06:37,239 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:06:37,243 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 15:06:37,244 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:06:37,249 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 15:06:37,250 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:06:37,253 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 15:06:37,254 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:11:38,291 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 15:11:38,292 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 15:11:38,297 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 15:11:38,299 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:11:38,308 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 15:11:38,309 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:11:38,313 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 15:11:38,315 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:11:38,319 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 15:11:38,320 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:11:38,325 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 15:11:38,326 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:11:38,330 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 15:11:38,332 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:11:38,337 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 15:11:38,338 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 15:11:38,343 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 15:11:38,345 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:11:38,349 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 15:11:38,351 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:11:38,355 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 15:11:38,356 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:11:38,361 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 15:11:38,362 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:11:38,366 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 15:11:38,368 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:11:38,372 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 15:11:38,373 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:11:38,380 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 15:11:38,382 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 15:11:38,387 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 15:11:38,388 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:11:38,393 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 15:11:38,394 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:11:38,398 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 15:11:38,400 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:11:38,411 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 15:11:38,413 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:11:38,421 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 15:11:38,422 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:11:38,428 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 15:11:38,430 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:13:27,298 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 15:13:27,299 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 15:13:27,306 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 15:13:27,308 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:13:27,315 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 15:13:27,316 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:13:27,321 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 15:13:27,323 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:13:27,327 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 15:13:27,329 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:13:27,333 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 15:13:27,334 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:13:27,338 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 15:13:27,346 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:13:27,351 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 15:13:27,353 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 15:13:27,358 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 15:13:27,359 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:13:27,363 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 15:13:27,368 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:13:27,375 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 15:13:27,376 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:13:27,380 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 15:13:27,382 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:13:27,387 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 15:13:27,388 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:13:27,393 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 15:13:27,394 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:13:27,399 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 15:13:27,400 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 15:13:27,405 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 15:13:27,406 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:13:27,411 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 15:13:27,412 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:13:27,417 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 15:13:27,418 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:13:27,423 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 15:13:27,424 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:13:27,429 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 15:13:27,430 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 15:13:27,434 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 15:13:27,436 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 16:26:01,407 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 16:26:01,414 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 16:26:01,430 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 16:26:01,435 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 16:26:01,448 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 16:26:01,450 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 16:26:01,460 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 16:26:01,461 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 16:26:01,472 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 16:26:01,475 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 16:26:01,488 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 16:26:01,494 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 16:26:01,506 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-14 16:26:01,507 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 16:26:01,518 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 16:26:01,520 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 16:26:01,528 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 16:26:01,529 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 16:26:01,535 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 16:26:01,537 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 16:26:01,542 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 16:26:01,549 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 16:26:01,555 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 16:26:01,557 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 16:26:01,563 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 16:26:01,564 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 16:26:01,570 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-14 16:26:01,571 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 16:26:01,578 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-14 16:26:01,579 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 16:26:01,586 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 16:26:01,587 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 16:26:01,597 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 16:26:01,598 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 16:26:01,603 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 16:26:01,604 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 16:26:01,608 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 16:26:01,611 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 16:26:01,615 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 16:26:01,616 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-14 16:26:01,622 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-14 16:26:01,623 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:39:27,929 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-15 09:39:27,931 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-15 09:39:27,952 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 09:39:27,970 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:39:27,988 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 09:39:27,997 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:39:28,012 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 09:39:28,016 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:39:28,026 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 09:39:28,028 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:39:28,048 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 09:39:28,058 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:39:28,074 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 09:39:28,079 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:39:28,101 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-15 09:39:28,105 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-15 09:39:28,122 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 09:39:28,127 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:39:28,143 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 09:39:28,144 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:39:28,158 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 09:39:28,160 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:39:28,181 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 09:39:28,183 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:39:28,204 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 09:39:28,205 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:39:28,218 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 09:39:28,219 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:39:28,241 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-15 09:39:28,249 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-15 09:39:28,265 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 09:39:28,274 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:39:28,283 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 09:39:28,286 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:39:28,305 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 09:39:28,309 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:39:28,324 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 09:39:28,325 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:39:28,339 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 09:39:28,341 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:39:28,360 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 09:39:28,361 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:42:49,220 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-15 09:42:49,229 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-15 09:42:49,249 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 09:42:49,266 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:42:49,285 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 09:42:49,287 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:42:49,305 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 09:42:49,308 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:42:49,335 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 09:42:49,338 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:42:49,360 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 09:42:49,364 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:42:49,385 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 09:42:49,390 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:42:49,404 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-15 09:42:49,423 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-15 09:42:49,445 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 09:42:49,448 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:42:49,469 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 09:42:49,475 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:42:49,490 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 09:42:49,492 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:42:49,507 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 09:42:49,515 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:42:49,526 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 09:42:49,528 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:42:49,551 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 09:42:49,552 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:42:49,563 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-15 09:42:49,565 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-15 09:42:49,577 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 09:42:49,578 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:42:49,590 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 09:42:49,591 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:42:49,602 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 09:42:49,603 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:42:49,614 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 09:42:49,616 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:42:49,633 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 09:42:49,636 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:42:49,647 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 09:42:49,652 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:44:49,390 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-15 09:44:49,396 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-15 09:44:49,409 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 09:44:49,427 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:44:49,442 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 09:44:49,443 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:44:49,456 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 09:44:49,459 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:44:49,474 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 09:44:49,475 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:44:49,481 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 09:44:49,483 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:44:49,489 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 09:44:49,490 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:44:49,496 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-15 09:44:49,499 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-15 09:44:49,505 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 09:44:49,506 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:44:49,512 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 09:44:49,514 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:44:49,521 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 09:44:49,523 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:44:49,529 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 09:44:49,530 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:44:49,536 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 09:44:49,539 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:44:49,548 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 09:44:49,551 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:44:49,557 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-15 09:44:49,558 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-15 09:44:49,564 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 09:44:49,566 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:44:49,575 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 09:44:49,587 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:44:49,608 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 09:44:49,612 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:44:49,627 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 09:44:49,632 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:44:49,649 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 09:44:49,651 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 09:44:49,667 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 09:44:49,671 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 10:54:35,438 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-15 10:54:35,439 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-15 10:54:35,460 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 10:54:35,462 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 10:54:35,469 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 10:54:35,470 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 10:54:35,475 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 10:54:35,476 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 10:54:35,481 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 10:54:35,482 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 10:54:35,486 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 10:54:35,488 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 10:54:35,493 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 10:54:35,494 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 10:54:35,498 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-15 10:54:35,499 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-15 10:54:35,504 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 10:54:35,505 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 10:54:35,509 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 10:54:35,511 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 10:54:35,515 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 10:54:35,517 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 10:54:35,521 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 10:54:35,523 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 10:54:35,528 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 10:54:35,529 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 10:54:35,533 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 10:54:35,535 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 10:54:35,540 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-15 10:54:35,541 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-15 10:54:35,546 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 10:54:35,547 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 10:54:35,551 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 10:54:35,553 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 10:54:35,562 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 10:54:35,564 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 10:54:35,569 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 10:54:35,570 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 10:54:35,575 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 10:54:35,576 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 10:54:35,581 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 10:54:35,582 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory

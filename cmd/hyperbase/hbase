@@ -1,0 +1,9 @@
+list_namespace
+create 'func_normal','grade','course'
+describe 'func_normal'
+put 'func_normal','Tom','grade:','5'
+put 'func_normal','Tom','course:math','97'
+put 'func_normal','Tom','course:art','87'
+put 'func_normal','Jim','grade','4'
+put 'func_normal','Jim','course:','89'
+put 'func_normal','Jim','course:','80'

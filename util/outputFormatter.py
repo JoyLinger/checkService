@@ -68,7 +68,7 @@ class Formatter:
         return self.title_and_head + self.contents
 
 def formatFeedLines(line, info, info_max, none_list):
-    """ solve: when line feed or contains '\n', do as below """
+    """When line feed or contains '\n', do as below."""
     next_line_content = []
     flag = "false"
     for i in range(0, len(info)):
@@ -96,7 +96,7 @@ def formatFeedLines(line, info, info_max, none_list):
     return line
 
 def formatTabLine(info):
-    """solve: when line contains '\t', replace it using four [SPACE]"""
+    """When line contains '\t', replace it using four [SPACE]."""
     for i in range(0, len(info)):
         info[i] = str(info[i]).replace("\t", " " * 4)
     return info

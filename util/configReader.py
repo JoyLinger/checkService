@@ -10,11 +10,12 @@ class ReadConf:
         Convert file to dictionary."""
         cf = fo.openFile(confFile)
         for line in cf:
-            line = line.replace("\n", "")
-            if "#" not in line and "=" in line:
-                kv = line.split("=")
-                self.res[kv[0]] = kv[1]
-            del line
+            if line is not None:
+                line = line.replace("\n", "")
+                if "#" not in line and "=" in line:
+                    kv = line.split("=")
+                    self.res[kv[0]] = kv[1]
+                del line
         fo.closeFile(cf)
 
     def get(self, key):

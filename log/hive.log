@@ -1,0 +1,120 @@
+2016-12-13 11:02:22,290 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-13 11:02:22,291 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-13 11:02:22,295 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2203:10000/default;principal=hive/tw-suse2203@TDH" -f cmd/inceptor/hive2
+2016-12-13 11:02:22,296 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-13 11:02:22,300 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-13 11:02:22,301 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-13 11:02:22,305 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2204:10000/default;principal=hive/tw-suse2204@TDH" -f cmd/inceptor/hive2
+2016-12-13 11:02:22,306 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-14 14:10:02,329 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-14 14:10:02,357 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:10:02,373 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2203:10000/default;principal=hive/tw-suse2203@TDH" -f cmd/inceptor/hive2
+2016-12-14 14:10:02,375 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-14 14:10:02,393 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-14 14:10:02,394 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:10:02,405 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2204:10000/default;principal=hive/tw-suse2204@TDH" -f cmd/inceptor/hive2
+2016-12-14 14:10:02,406 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-14 14:10:28,236 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-14 14:10:28,237 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:10:28,241 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2203:10000/default;principal=hive/tw-suse2203@TDH" -f cmd/inceptor/hive2
+2016-12-14 14:10:28,242 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-14 14:10:28,247 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-14 14:10:28,248 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:10:28,252 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2204:10000/default;principal=hive/tw-suse2204@TDH" -f cmd/inceptor/hive2
+2016-12-14 14:10:28,253 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-14 14:13:37,049 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-14 14:13:37,050 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:13:37,063 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2203:10000/default;principal=hive/tw-suse2203@TDH" -f cmd/inceptor/hive2
+2016-12-14 14:13:37,065 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-14 14:13:37,080 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-14 14:13:37,081 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:13:37,095 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2204:10000/default;principal=hive/tw-suse2204@TDH" -f cmd/inceptor/hive2
+2016-12-14 14:13:37,096 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-14 14:14:37,236 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-14 14:14:37,237 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:14:37,243 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2203:10000/default;principal=hive/tw-suse2203@TDH" -f cmd/inceptor/hive2
+2016-12-14 14:14:37,244 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-14 14:14:37,251 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-14 14:14:37,253 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:14:37,257 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2204:10000/default;principal=hive/tw-suse2204@TDH" -f cmd/inceptor/hive2
+2016-12-14 14:14:37,258 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-14 14:57:15,311 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-14 14:57:15,312 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:57:15,316 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2203:10000/default;principal=hive/tw-suse2203@TDH" -f cmd/inceptor/hive2
+2016-12-14 14:57:15,318 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-14 14:57:15,326 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-14 14:57:15,327 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:57:15,336 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2204:10000/default;principal=hive/tw-suse2204@TDH" -f cmd/inceptor/hive2
+2016-12-14 14:57:15,337 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-14 14:58:12,135 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-14 14:58:12,136 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:58:12,142 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2203:10000/default;principal=hive/tw-suse2203@TDH" -f cmd/inceptor/hive2
+2016-12-14 14:58:12,143 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-14 14:58:12,149 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-14 14:58:12,150 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 14:58:12,154 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2204:10000/default;principal=hive/tw-suse2204@TDH" -f cmd/inceptor/hive2
+2016-12-14 14:58:12,156 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-14 15:06:37,307 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-14 15:06:37,308 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 15:06:37,312 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2203:10000/default;principal=hive/tw-suse2203@TDH" -f cmd/inceptor/hive2
+2016-12-14 15:06:37,313 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-14 15:06:37,317 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-14 15:06:37,318 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 15:06:37,321 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2204:10000/default;principal=hive/tw-suse2204@TDH" -f cmd/inceptor/hive2
+2016-12-14 15:06:37,322 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-14 15:11:38,498 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-14 15:11:38,500 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 15:11:38,505 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2203:10000/default;principal=hive/tw-suse2203@TDH" -f cmd/inceptor/hive2
+2016-12-14 15:11:38,510 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-14 15:11:38,516 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-14 15:11:38,517 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 15:11:38,521 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2204:10000/default;principal=hive/tw-suse2204@TDH" -f cmd/inceptor/hive2
+2016-12-14 15:11:38,524 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-14 15:36:17,997 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-14 15:36:17,999 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 15:36:18,004 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2203:10000/default;principal=hive/tw-suse2203@TDH" -f cmd/inceptor/hive2
+2016-12-14 15:36:18,006 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-14 15:36:18,010 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-14 15:36:18,012 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 15:36:18,016 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2204:10000/default;principal=hive/tw-suse2204@TDH" -f cmd/inceptor/hive2
+2016-12-14 15:36:18,018 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-14 16:48:37,738 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-14 16:48:37,740 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 16:48:37,743 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2203:10000/default;principal=hive/tw-suse2203@TDH" -f cmd/inceptor/hive2
+2016-12-14 16:48:37,745 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-14 16:48:37,749 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-14 16:48:37,750 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-14 16:48:37,754 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2204:10000/default;principal=hive/tw-suse2204@TDH" -f cmd/inceptor/hive2
+2016-12-14 16:48:37,755 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-15 10:08:05,682 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-15 10:08:05,684 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-15 10:08:05,711 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2203:10000/default;principal=hive/tw-suse2203@TDH" -f cmd/inceptor/hive2
+2016-12-15 10:08:05,717 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-15 10:08:05,733 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-15 10:08:05,737 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-15 10:08:05,752 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2204:10000/default;principal=hive/tw-suse2204@TDH" -f cmd/inceptor/hive2
+2016-12-15 10:08:05,753 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-15 10:52:46,948 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-15 10:52:46,950 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-15 10:52:46,956 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2203:10000/default;principal=hive/tw-suse2203@TDH" -f cmd/inceptor/hive2
+2016-12-15 10:52:46,958 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-15 10:52:46,965 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-15 10:52:46,968 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-15 10:52:46,972 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2204:10000/default;principal=hive/tw-suse2204@TDH" -f cmd/inceptor/hive2
+2016-12-15 10:52:46,975 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-15 10:53:39,752 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-15 10:53:39,753 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-15 10:53:39,759 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2203:10000/default;principal=hive/tw-suse2203@TDH" -f cmd/inceptor/hive2
+2016-12-15 10:53:39,760 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-15 10:53:39,765 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-15 10:53:39,766 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-15 10:53:39,772 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2204:10000/default;principal=hive/tw-suse2204@TDH" -f cmd/inceptor/hive2
+2016-12-15 10:53:39,774 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-15 10:54:35,689 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-15 10:54:35,690 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-15 10:54:35,706 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2203:10000/default;principal=hive/tw-suse2203@TDH" -f cmd/inceptor/hive2
+2016-12-15 10:54:35,711 ERROR ERROR_MESSAGE : sh: beeline: command not found
+2016-12-15 10:54:35,721 ERROR FAILED_COMMAND: kinit hive/tw-suse2203 -kt /etc/inceptorsql1/hive.keytab
+2016-12-15 10:54:35,726 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-15 10:54:35,731 ERROR FAILED_COMMAND: beeline -u "jdbc:hive2://tw-suse2204:10000/default;principal=hive/tw-suse2204@TDH" -f cmd/inceptor/hive2
+2016-12-15 10:54:35,734 ERROR ERROR_MESSAGE : sh: beeline: command not found
