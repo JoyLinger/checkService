@@ -1,8 +1,9 @@
+import commands as cmds
 import os
 import time
 
-import commands as cmds
 import util.logWriter as lw
+
 
 def run_all_check_command(command_list, logName):
     """Run commands, return command && result list."""
@@ -11,6 +12,7 @@ def run_all_check_command(command_list, logName):
         array = cmds.getstatusoutput(c)
         contentList.append(check_status(c, array[0], array[1], logName))
     return contentList
+
 
 def check_status(command, stat, out, logName):
     """Write into log file and return every command && result as list"""
@@ -26,6 +28,7 @@ def check_status(command, stat, out, logName):
     list = [command.strip(), "SUCCEEDED" if stat == 0 else "FAILED"]
     return list
 
+
 def createDir(dirPath):
     """Create directories for hdfs test."""
     if os.path.exists(dirPath):
@@ -34,19 +37,23 @@ def createDir(dirPath):
     else:
         os.mkdir(dirPath)
 
+
 def prepareTestHdfs(path, writeWords, fileName):
     """Prepare sth for hdfs test"""
     createDir(path)
     os.system("echo %s > %s/%s" % (writeWords, path, fileName))
 
+
 def compare(originFile, getFromHdfs_file):
     """Use md5sum to compare."""
-    op1 = cmds.getoutput("md5sum %s" % originFile)
-    op2 = cmds.getoutput("md5sum %s" % getFromHdfs_file)
+    op1 = cmds.getoutput("md5sum %s" % originFile).split("  ")[0]
+    op2 = cmds.getoutput("md5sum %s" % getFromHdfs_file).split("  ")[0]
     if op1 == op2:
         print "The command 'hdfs dfs -get' is ok."
     else:
         print "Something is wrong with the command 'hdfs dfs -get'."
 
+
 def deleteDir(path):
-    os.rmdir(path)
+    if os.path.exists(path):
+        os.system("rm -r %s" % path)

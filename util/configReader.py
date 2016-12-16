@@ -1,13 +1,13 @@
 import fileOpener as fo
 
-class ReadConf:
 
-    res = {}
+class ReadConf:
 
     def __init__(self, confFile="conf/configurations.conf"):
         """Init.
 
         Convert file to dictionary."""
+        self.res = {}
         cf = fo.openFile(confFile)
         for line in cf:
             if line is not None:

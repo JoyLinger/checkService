@@ -6,6 +6,7 @@ def openFile(file_path):
     except Exception, e:
         print "Exception: ", e
 
+
 def closeFile(f):
     """Close file(:argument: f)."""
     f.close()

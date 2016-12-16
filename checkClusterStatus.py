@@ -32,7 +32,6 @@ header = ["roleType", "hostName", "status"]
 logger_str = ""
 myLogger = util.logWriter.Logger(logName="root").getLogger()
 
-
 for sts in serivce_type_list:
     # service infos
     sis = util.jsonParser.getServiceInfo(sts, serviceJson)

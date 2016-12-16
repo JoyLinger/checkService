@@ -628,3 +628,1635 @@
 2016-12-15 10:54:35,576 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
 2016-12-15 10:54:35,581 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
 2016-12-15 10:54:35,582 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 13:40:40,623 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-15 13:40:40,629 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-15 13:40:40,653 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 13:40:40,656 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 13:40:40,669 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 13:40:40,670 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 13:40:40,682 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 13:40:40,684 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 13:40:40,695 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 13:40:40,696 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 13:40:40,704 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 13:40:40,706 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 13:40:40,716 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-15 13:40:40,718 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 13:40:40,730 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-15 13:40:40,731 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-15 13:40:40,739 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 13:40:40,741 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 13:40:40,756 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 13:40:40,757 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 13:40:40,779 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 13:40:40,780 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 13:40:40,787 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 13:40:40,789 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 13:40:40,793 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 13:40:40,794 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 13:40:40,799 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-15 13:40:40,800 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 13:40:40,806 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-15 13:40:40,807 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-15 13:40:40,824 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 13:40:40,827 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 13:40:40,840 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 13:40:40,842 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 13:40:40,855 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 13:40:40,856 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 13:40:40,863 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 13:40:40,865 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 13:40:40,869 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 13:40:40,871 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-15 13:40:40,879 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-15 13:40:40,881 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:29:43,510 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 09:29:43,511 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:29:43,519 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:29:43,520 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:29:43,525 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:29:43,526 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:29:43,531 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:29:43,532 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:29:43,536 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:29:43,538 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:29:43,542 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:29:43,544 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:29:43,550 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:29:43,551 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:29:43,557 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 09:29:43,563 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:29:43,568 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:29:43,569 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:29:43,574 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:29:43,576 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:29:43,581 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:29:43,582 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:29:43,587 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:29:43,588 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:29:43,593 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:29:43,594 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:29:43,599 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:29:43,600 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:29:43,605 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 09:29:43,612 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:29:43,617 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:29:43,619 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:29:43,623 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:29:43,624 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:29:43,630 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:29:43,631 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:29:43,636 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:29:43,637 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:29:43,642 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:29:43,643 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:29:43,648 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:29:43,649 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:34:38,590 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 09:34:38,599 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:34:38,626 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:34:38,627 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:34:38,646 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:34:38,650 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:34:38,663 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:34:38,669 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:34:38,682 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:34:38,688 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:34:38,702 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:34:38,707 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:34:38,718 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:34:38,722 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:34:38,738 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 09:34:38,744 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:34:38,760 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:34:38,761 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:34:38,777 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:34:38,778 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:34:38,791 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:34:38,794 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:34:38,809 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:34:38,811 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:34:38,827 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:34:38,828 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:34:38,843 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:34:38,847 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:34:38,860 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 09:34:38,862 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:34:38,874 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:34:38,876 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:34:38,889 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:34:38,891 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:34:38,904 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:34:38,905 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:34:38,919 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:34:38,923 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:34:38,935 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:34:38,939 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:34:38,952 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:34:38,955 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:36:54,318 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 09:36:54,333 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:36:54,351 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:36:54,353 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:36:54,364 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:36:54,366 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:36:54,375 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:36:54,377 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:36:54,383 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:36:54,385 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:36:54,393 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:36:54,395 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:36:54,400 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:36:54,401 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:36:54,408 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 09:36:54,409 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:36:54,426 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:36:54,427 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:36:54,433 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:36:54,435 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:36:54,441 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:36:54,443 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:36:54,453 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:36:54,455 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:36:54,468 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:36:54,470 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:36:54,481 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:36:54,484 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:36:54,495 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 09:36:54,498 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:36:54,511 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:36:54,513 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:36:54,531 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:36:54,534 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:36:54,557 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:36:54,560 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:36:54,576 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:36:54,580 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:36:54,597 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:36:54,600 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:36:54,621 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:36:54,622 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:39:50,137 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 09:39:50,147 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:39:50,173 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:39:50,176 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:39:50,187 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:39:50,190 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:39:50,200 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:39:50,204 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:39:50,220 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:39:50,223 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:39:50,236 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:39:50,239 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:39:50,253 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:39:50,254 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:39:50,266 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 09:39:50,268 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:39:50,282 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:39:50,283 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:39:50,294 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:39:50,298 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:39:50,310 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:39:50,312 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:39:50,333 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:39:50,336 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:39:50,357 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:39:50,358 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:39:50,378 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:39:50,379 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:39:50,398 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 09:39:50,399 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:39:50,412 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:39:50,418 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:39:50,433 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:39:50,434 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:39:50,445 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:39:50,446 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:39:50,458 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:39:50,460 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:39:50,470 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:39:50,471 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:39:50,483 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:39:50,484 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:41:22,979 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 09:41:22,989 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:41:23,003 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:41:23,006 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:41:23,020 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:41:23,023 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:41:23,038 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:41:23,040 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:41:23,049 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:41:23,051 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:41:23,057 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:41:23,058 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:41:23,066 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 09:41:23,068 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:41:23,077 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 09:41:23,079 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:41:23,086 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:41:23,088 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:41:23,092 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:41:23,095 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:41:23,100 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:41:23,101 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:41:23,108 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:41:23,109 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:41:23,114 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:41:23,116 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:41:23,121 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 09:41:23,123 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:41:23,128 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 09:41:23,129 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:41:23,136 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:41:23,138 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:41:23,142 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:41:23,144 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:41:23,149 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:41:23,152 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:41:23,157 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:41:23,160 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:41:23,167 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:41:23,173 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 09:41:23,191 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 09:41:23,193 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:20:18,562 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 10:20:18,575 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 10:20:18,594 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 10:20:18,609 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:20:18,625 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 10:20:18,633 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:20:18,650 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 10:20:18,663 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:20:18,683 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 10:20:18,696 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:20:18,716 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 10:20:18,722 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:20:18,746 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 10:20:18,761 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:20:18,783 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 10:20:18,794 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 10:20:18,816 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 10:20:18,820 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:20:18,840 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 10:20:18,849 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:20:18,873 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 10:20:18,881 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:20:18,902 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 10:20:18,916 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:20:18,935 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 10:20:18,947 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:20:18,970 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 10:20:18,998 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:20:19,026 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 10:20:19,041 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 10:20:19,068 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 10:20:19,081 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:20:19,098 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 10:20:19,106 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:20:19,133 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 10:20:19,145 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:20:19,166 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 10:20:19,171 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:20:19,193 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 10:20:19,211 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:20:19,242 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 10:20:19,257 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:21:34,009 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 10:21:34,014 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 10:21:34,023 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 10:21:34,028 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:21:34,037 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 10:21:34,043 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:21:34,053 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 10:21:34,066 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:21:34,086 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 10:21:34,094 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:21:34,104 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 10:21:34,109 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:21:34,119 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 10:21:34,124 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:21:34,142 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 10:21:34,152 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 10:21:34,167 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 10:21:34,172 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:21:34,181 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 10:21:34,187 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:21:34,196 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 10:21:34,201 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:21:34,210 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 10:21:34,215 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:21:34,224 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 10:21:34,230 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:21:34,239 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 10:21:34,245 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:21:34,254 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 10:21:34,259 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 10:21:34,269 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 10:21:34,274 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:21:34,282 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 10:21:34,287 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:21:34,298 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 10:21:34,303 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:21:34,313 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 10:21:34,318 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:21:34,340 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 10:21:34,366 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:21:34,384 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 10:21:34,396 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:25:05,588 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 10:25:05,594 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 10:25:05,603 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 10:25:05,608 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:25:05,622 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 10:25:05,633 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:25:05,657 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 10:25:05,670 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:25:05,681 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 10:25:05,686 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:25:05,696 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 10:25:05,701 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:25:05,711 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2203:2181
+2016-12-16 10:25:05,716 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:25:05,726 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 10:25:05,736 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 10:25:05,746 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 10:25:05,751 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:25:05,761 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 10:25:05,766 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:25:05,775 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 10:25:05,780 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:25:05,789 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 10:25:05,794 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:25:05,803 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 10:25:05,808 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:25:05,818 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2204:2181
+2016-12-16 10:25:05,823 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:25:05,832 ERROR FAILED_COMMAND: kinit zookeeper/tw-suse2203 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 10:25:05,839 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 10:25:05,852 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 10:25:05,858 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:25:05,873 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 10:25:05,881 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:25:05,891 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 10:25:05,895 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:25:05,908 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 10:25:05,913 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:25:05,923 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 10:25:05,936 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 10:25:05,953 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server tw-suse2205:2181
+2016-12-16 10:25:05,959 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 14:28:10,362 ERROR FAILED_COMMAND: kinit zookeeper/centos1 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 14:28:10,364 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 14:28:10,369 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server centos1:2181
+2016-12-16 14:28:10,374 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 14:28:10,378 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server centos1:2181
+2016-12-16 14:28:10,379 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 14:28:10,384 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server centos1:2181
+2016-12-16 14:28:10,385 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 14:28:10,390 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server centos1:2181
+2016-12-16 14:28:10,391 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 14:28:10,396 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server centos1:2181
+2016-12-16 14:28:10,397 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 14:28:10,401 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server centos1:2181
+2016-12-16 14:28:10,405 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 14:28:10,415 ERROR FAILED_COMMAND: kinit zookeeper/centos1 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 14:28:10,416 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 14:28:10,421 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server centos2:2181
+2016-12-16 14:28:10,423 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 14:28:10,428 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server centos2:2181
+2016-12-16 14:28:10,429 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 14:28:10,435 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server centos2:2181
+2016-12-16 14:28:10,436 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 14:28:10,440 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server centos2:2181
+2016-12-16 14:28:10,442 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 14:28:10,446 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server centos2:2181
+2016-12-16 14:28:10,448 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 14:28:10,453 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server centos2:2181
+2016-12-16 14:28:10,454 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 14:28:10,458 ERROR FAILED_COMMAND: kinit zookeeper/centos1 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 14:28:10,460 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 14:28:10,471 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server centos3:2181
+2016-12-16 14:28:10,472 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 14:28:10,477 ERROR FAILED_COMMAND: echo create /zk-test zookeeper-test | /usr/lib/zookeeper/bin/zkCli.sh -server centos3:2181
+2016-12-16 14:28:10,478 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 14:28:10,482 ERROR FAILED_COMMAND: echo get /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server centos3:2181
+2016-12-16 14:28:10,484 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 14:28:10,488 ERROR FAILED_COMMAND: echo set /zk-test zk_test | /usr/lib/zookeeper/bin/zkCli.sh -server centos3:2181
+2016-12-16 14:28:10,489 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 14:28:10,494 ERROR FAILED_COMMAND: echo delete /zk-test | /usr/lib/zookeeper/bin/zkCli.sh -server centos3:2181
+2016-12-16 14:28:10,496 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 14:28:10,500 ERROR FAILED_COMMAND: echo ls / | /usr/lib/zookeeper/bin/zkCli.sh -server centos3:2181
+2016-12-16 14:28:10,501 ERROR ERROR_MESSAGE : sh: /usr/lib/zookeeper/bin/zkCli.sh: No such file or directory
+2016-12-16 14:56:55,413 ERROR FAILED_COMMAND: kinit zookeeper/centos1 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 14:56:55,415 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 14:56:57,577 INFO COMMAND: echo ls / | /usr/zookeeper/bin/zkCli.sh -server centos1:2181
+2016-12-16 14:56:57,581 INFO OUTPUT : Connecting to centos1:2181
+2016-12-16 14:56:56,808 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:56:56,840 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:56:56,840 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:56:56,848 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:56:56,848 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:56:56,849 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:56:56,849 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:56:56,849 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:56:56,850 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:56:56,851 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:56:56,855 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:56:56,855 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:56:56,855 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:56:56,856 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:56:56,856 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:56:56,857 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos1:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+Welcome to ZooKeeper!
+2016-12-16 14:56:57,008 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos1/192.168.147.10:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-12-16 14:56:57,032 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@876] - Socket connection established to centos1/192.168.147.10:2181, initiating session
+JLine support is enabled
+2016-12-16 14:56:57,084 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos1/192.168.147.10:2181, sessionid = 0x159062533f60004, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos1:2181(CONNECTED) 0] ls /
+[hadoopconfig, zk, rmstore, hadoop-ha, yarn-leader-election, zookeeper]
+[zk: centos1:2181(CONNECTED) 1] 
+2016-12-16 14:56:58,667 INFO COMMAND: echo create /zk-test zookeeper-test | /usr/zookeeper/bin/zkCli.sh -server centos1:2181
+2016-12-16 14:56:58,750 INFO OUTPUT : Connecting to centos1:2181
+2016-12-16 14:56:58,051 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:56:58,062 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:56:58,062 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:56:58,068 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:56:58,069 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:56:58,069 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:56:58,072 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:56:58,072 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:56:58,073 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:56:58,073 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:56:58,073 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:56:58,073 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:56:58,073 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:56:58,073 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:56:58,073 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:56:58,075 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos1:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+Welcome to ZooKeeper!
+2016-12-16 14:56:58,148 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos1/192.168.147.10:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-12-16 14:56:58,164 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@876] - Socket connection established to centos1/192.168.147.10:2181, initiating session
+JLine support is enabled
+2016-12-16 14:56:58,231 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos1/192.168.147.10:2181, sessionid = 0x159062533f60005, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos1:2181(CONNECTED) 0] create /zk-test zookeeper-test
+Created /zk-test
+[zk: centos1:2181(CONNECTED) 1] 
+2016-12-16 14:56:59,556 INFO COMMAND: echo get /zk-test | /usr/zookeeper/bin/zkCli.sh -server centos1:2181
+2016-12-16 14:56:59,558 INFO OUTPUT : Connecting to centos1:2181
+2016-12-16 14:56:58,989 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:56:58,998 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:56:58,998 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:56:59,000 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:56:59,000 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:56:59,000 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:56:59,000 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:56:59,000 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:56:59,001 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:56:59,001 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:56:59,001 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:56:59,001 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:56:59,001 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:56:59,001 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:56:59,001 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:56:59,003 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos1:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+2016-12-16 14:56:59,033 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos1/192.168.147.10:2181. Will not attempt to authenticate using SASL (unknown error)
+Welcome to ZooKeeper!
+JLine support is enabled
+2016-12-16 14:56:59,049 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@876] - Socket connection established to centos1/192.168.147.10:2181, initiating session
+2016-12-16 14:56:59,093 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos1/192.168.147.10:2181, sessionid = 0x159062533f60006, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos1:2181(CONNECTED) 0] get /zk-test
+zookeeper-test
+cZxid = 0x5f00000217
+ctime = Fri Dec 16 14:58:18 CST 2016
+mZxid = 0x5f00000217
+mtime = Fri Dec 16 14:58:18 CST 2016
+pZxid = 0x5f00000217
+cversion = 0
+dataVersion = 0
+aclVersion = 0
+ephemeralOwner = 0x0
+dataLength = 14
+numChildren = 0
+[zk: centos1:2181(CONNECTED) 1] 
+2016-12-16 14:57:00,292 INFO COMMAND: echo set /zk-test zk_test | /usr/zookeeper/bin/zkCli.sh -server centos1:2181
+2016-12-16 14:57:00,294 INFO OUTPUT : Connecting to centos1:2181
+2016-12-16 14:56:59,782 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:56:59,792 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:56:59,793 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:56:59,794 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:56:59,795 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:56:59,795 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:56:59,795 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:56:59,795 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:56:59,795 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:56:59,795 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:56:59,795 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:56:59,795 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:56:59,796 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:56:59,796 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:56:59,796 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:56:59,797 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos1:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+2016-12-16 14:56:59,828 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos1/192.168.147.10:2181. Will not attempt to authenticate using SASL (unknown error)
+Welcome to ZooKeeper!
+2016-12-16 14:56:59,845 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@876] - Socket connection established to centos1/192.168.147.10:2181, initiating session
+JLine support is enabled
+2016-12-16 14:56:59,870 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos1/192.168.147.10:2181, sessionid = 0x159062533f60007, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos1:2181(CONNECTED) 0] set /zk-test zk_test
+cZxid = 0x5f00000217
+ctime = Fri Dec 16 14:58:18 CST 2016
+mZxid = 0x5f0000021a
+mtime = Fri Dec 16 14:58:19 CST 2016
+pZxid = 0x5f00000217
+cversion = 0
+dataVersion = 1
+aclVersion = 0
+ephemeralOwner = 0x0
+dataLength = 7
+numChildren = 0
+[zk: centos1:2181(CONNECTED) 1] 
+2016-12-16 14:57:01,024 INFO COMMAND: echo delete /zk-test | /usr/zookeeper/bin/zkCli.sh -server centos1:2181
+2016-12-16 14:57:01,026 INFO OUTPUT : Connecting to centos1:2181
+2016-12-16 14:57:00,535 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:57:00,541 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:57:00,541 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:57:00,544 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:57:00,545 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:57:00,545 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:57:00,545 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:57:00,545 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:57:00,545 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:57:00,545 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:57:00,545 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:57:00,546 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:57:00,546 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:57:00,546 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:57:00,546 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:57:00,547 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos1:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+2016-12-16 14:57:00,576 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos1/192.168.147.10:2181. Will not attempt to authenticate using SASL (unknown error)
+Welcome to ZooKeeper!
+2016-12-16 14:57:00,588 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@876] - Socket connection established to centos1/192.168.147.10:2181, initiating session
+JLine support is enabled
+2016-12-16 14:57:00,617 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos1/192.168.147.10:2181, sessionid = 0x159062533f60008, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos1:2181(CONNECTED) 0] delete /zk-test
+[zk: centos1:2181(CONNECTED) 1] 
+2016-12-16 14:57:01,739 INFO COMMAND: echo ls / | /usr/zookeeper/bin/zkCli.sh -server centos1:2181
+2016-12-16 14:57:01,741 INFO OUTPUT : Connecting to centos1:2181
+2016-12-16 14:57:01,247 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:57:01,253 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:57:01,253 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:57:01,256 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:57:01,256 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:57:01,256 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:57:01,256 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:57:01,256 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:57:01,257 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:57:01,257 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:57:01,257 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:57:01,257 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:57:01,257 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:57:01,257 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:57:01,257 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:57:01,259 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos1:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+Welcome to ZooKeeper!
+2016-12-16 14:57:01,293 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos1/192.168.147.10:2181. Will not attempt to authenticate using SASL (unknown error)
+JLine support is enabled
+2016-12-16 14:57:01,304 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@876] - Socket connection established to centos1/192.168.147.10:2181, initiating session
+2016-12-16 14:57:01,330 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos1/192.168.147.10:2181, sessionid = 0x159062533f60009, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos1:2181(CONNECTED) 0] ls /
+[hadoopconfig, hadoop-ha, zookeeper, rmstore, zk, yarn-leader-election]
+[zk: centos1:2181(CONNECTED) 1] 
+2016-12-16 14:57:01,746 ERROR FAILED_COMMAND: kinit zookeeper/centos1 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 14:57:01,747 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 14:57:02,560 INFO COMMAND: echo ls / | /usr/zookeeper/bin/zkCli.sh -server centos2:2181
+2016-12-16 14:57:02,562 INFO OUTPUT : Connecting to centos2:2181
+2016-12-16 14:57:02,013 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:57:02,033 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:57:02,033 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:57:02,041 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:57:02,042 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:57:02,042 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:57:02,042 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:57:02,042 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:57:02,042 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:57:02,042 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:57:02,047 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:57:02,048 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:57:02,048 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:57:02,048 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:57:02,048 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:57:02,053 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos2:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+2016-12-16 14:57:02,097 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos2/192.168.147.11:2181. Will not attempt to authenticate using SASL (unknown error)
+Welcome to ZooKeeper!
+2016-12-16 14:57:02,111 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@876] - Socket connection established to centos2/192.168.147.11:2181, initiating session
+JLine support is enabled
+2016-12-16 14:57:02,144 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos2/192.168.147.11:2181, sessionid = 0x25906266c6b0004, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos2:2181(CONNECTED) 0] ls /
+[hadoopconfig, hadoop-ha, zookeeper, zk, rmstore, yarn-leader-election]
+[zk: centos2:2181(CONNECTED) 1] 
+2016-12-16 14:57:03,364 INFO COMMAND: echo create /zk-test zookeeper-test | /usr/zookeeper/bin/zkCli.sh -server centos2:2181
+2016-12-16 14:57:03,366 INFO OUTPUT : Connecting to centos2:2181
+2016-12-16 14:57:02,799 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:57:02,810 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:57:02,810 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:57:02,813 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:57:02,814 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:57:02,814 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:57:02,814 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:57:02,814 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:57:02,814 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:57:02,814 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:57:02,814 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:57:02,814 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:57:02,815 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:57:02,815 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:57:02,815 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:57:02,816 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos2:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+2016-12-16 14:57:02,852 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos2/192.168.147.11:2181. Will not attempt to authenticate using SASL (unknown error)
+Welcome to ZooKeeper!
+2016-12-16 14:57:02,865 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@876] - Socket connection established to centos2/192.168.147.11:2181, initiating session
+JLine support is enabled
+[zk: centos2:2181(CONNECTING) 0] create /zk-test zookeeper-test
+2016-12-16 14:57:02,938 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos2/192.168.147.11:2181, sessionid = 0x25906266c6b0005, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+Created /zk-test
+[zk: centos2:2181(CONNECTED) 1] 
+2016-12-16 14:57:04,121 INFO COMMAND: echo get /zk-test | /usr/zookeeper/bin/zkCli.sh -server centos2:2181
+2016-12-16 14:57:04,128 INFO OUTPUT : Connecting to centos2:2181
+2016-12-16 14:57:03,620 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:57:03,625 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:57:03,625 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:57:03,629 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:57:03,629 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:57:03,629 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:57:03,629 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:57:03,629 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:57:03,629 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:57:03,629 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:57:03,629 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:57:03,630 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:57:03,630 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:57:03,630 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:57:03,630 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:57:03,631 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos2:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+Welcome to ZooKeeper!
+2016-12-16 14:57:03,666 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos2/192.168.147.11:2181. Will not attempt to authenticate using SASL (unknown error)
+JLine support is enabled
+2016-12-16 14:57:03,681 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@876] - Socket connection established to centos2/192.168.147.11:2181, initiating session
+2016-12-16 14:57:03,700 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos2/192.168.147.11:2181, sessionid = 0x25906266c6b0006, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos2:2181(CONNECTED) 0] get /zk-test
+zookeeper-test
+cZxid = 0x5f00000220
+ctime = Fri Dec 16 14:58:22 CST 2016
+mZxid = 0x5f00000220
+mtime = Fri Dec 16 14:58:22 CST 2016
+pZxid = 0x5f00000220
+cversion = 0
+dataVersion = 0
+aclVersion = 0
+ephemeralOwner = 0x0
+dataLength = 14
+numChildren = 0
+[zk: centos2:2181(CONNECTED) 1] 
+2016-12-16 14:57:05,212 INFO COMMAND: echo set /zk-test zk_test | /usr/zookeeper/bin/zkCli.sh -server centos2:2181
+2016-12-16 14:57:05,216 INFO OUTPUT : Connecting to centos2:2181
+2016-12-16 14:57:04,607 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:57:04,629 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:57:04,630 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:57:04,635 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:57:04,636 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:57:04,636 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:57:04,638 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:57:04,638 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:57:04,638 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:57:04,638 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:57:04,638 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:57:04,638 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:57:04,643 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:57:04,643 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:57:04,643 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:57:04,645 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos2:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+Welcome to ZooKeeper!
+2016-12-16 14:57:04,717 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos2/192.168.147.11:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-12-16 14:57:04,731 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@876] - Socket connection established to centos2/192.168.147.11:2181, initiating session
+JLine support is enabled
+2016-12-16 14:57:04,765 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos2/192.168.147.11:2181, sessionid = 0x25906266c6b0007, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos2:2181(CONNECTED) 0] set /zk-test zk_test
+cZxid = 0x5f00000220
+ctime = Fri Dec 16 14:58:22 CST 2016
+mZxid = 0x5f00000223
+mtime = Fri Dec 16 14:58:24 CST 2016
+pZxid = 0x5f00000220
+cversion = 0
+dataVersion = 1
+aclVersion = 0
+ephemeralOwner = 0x0
+dataLength = 7
+numChildren = 0
+[zk: centos2:2181(CONNECTED) 1] 
+2016-12-16 14:57:06,226 INFO COMMAND: echo delete /zk-test | /usr/zookeeper/bin/zkCli.sh -server centos2:2181
+2016-12-16 14:57:06,228 INFO OUTPUT : Connecting to centos2:2181
+2016-12-16 14:57:05,658 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:57:05,665 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:57:05,667 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:57:05,674 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:57:05,675 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:57:05,675 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:57:05,675 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:57:05,675 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:57:05,675 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:57:05,675 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:57:05,676 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:57:05,676 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:57:05,676 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:57:05,678 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:57:05,678 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:57:05,679 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos2:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+Welcome to ZooKeeper!
+2016-12-16 14:57:05,752 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos2/192.168.147.11:2181. Will not attempt to authenticate using SASL (unknown error)
+JLine support is enabled
+2016-12-16 14:57:05,766 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@876] - Socket connection established to centos2/192.168.147.11:2181, initiating session
+2016-12-16 14:57:05,800 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos2/192.168.147.11:2181, sessionid = 0x25906266c6b0008, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos2:2181(CONNECTED) 0] delete /zk-test
+[zk: centos2:2181(CONNECTED) 1] 
+2016-12-16 14:57:06,944 INFO COMMAND: echo ls / | /usr/zookeeper/bin/zkCli.sh -server centos2:2181
+2016-12-16 14:57:06,949 INFO OUTPUT : Connecting to centos2:2181
+2016-12-16 14:57:06,453 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:57:06,461 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:57:06,462 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:57:06,464 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:57:06,464 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:57:06,464 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:57:06,464 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:57:06,464 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:57:06,464 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:57:06,464 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:57:06,465 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:57:06,465 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:57:06,465 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:57:06,465 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:57:06,465 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:57:06,466 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos2:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+Welcome to ZooKeeper!
+2016-12-16 14:57:06,508 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos2/192.168.147.11:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-12-16 14:57:06,518 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@876] - Socket connection established to centos2/192.168.147.11:2181, initiating session
+JLine support is enabled
+2016-12-16 14:57:06,541 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos2/192.168.147.11:2181, sessionid = 0x25906266c6b0009, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos2:2181(CONNECTED) 0] ls /
+[hadoopconfig, hadoop-ha, zookeeper, zk, rmstore, yarn-leader-election]
+[zk: centos2:2181(CONNECTED) 1] 
+2016-12-16 14:57:06,956 ERROR FAILED_COMMAND: kinit zookeeper/centos1 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 14:57:06,957 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 14:57:07,874 INFO COMMAND: echo ls / | /usr/zookeeper/bin/zkCli.sh -server centos3:2181
+2016-12-16 14:57:07,880 INFO OUTPUT : Connecting to centos3:2181
+2016-12-16 14:57:07,200 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:57:07,210 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:57:07,210 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:57:07,214 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:57:07,215 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:57:07,215 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:57:07,216 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:57:07,216 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:57:07,216 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:57:07,216 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:57:07,216 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:57:07,216 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:57:07,217 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:57:07,217 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:57:07,217 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:57:07,218 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos3:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+Welcome to ZooKeeper!
+2016-12-16 14:57:07,254 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos3/192.168.147.12:2181. Will not attempt to authenticate using SASL (unknown error)
+JLine support is enabled
+2016-12-16 14:57:07,267 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@876] - Socket connection established to centos3/192.168.147.12:2181, initiating session
+[zk: centos3:2181(CONNECTING) 0] ls /
+2016-12-16 14:57:07,441 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos3/192.168.147.12:2181, sessionid = 0x35906266e1d0003, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[hadoopconfig, hadoop-ha, zookeeper, rmstore, zk, yarn-leader-election]
+[zk: centos3:2181(CONNECTED) 1] 
+2016-12-16 14:57:08,656 INFO COMMAND: echo create /zk-test zookeeper-test | /usr/zookeeper/bin/zkCli.sh -server centos3:2181
+2016-12-16 14:57:08,658 INFO OUTPUT : Connecting to centos3:2181
+2016-12-16 14:57:08,176 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:57:08,187 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:57:08,187 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:57:08,191 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:57:08,191 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:57:08,191 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:57:08,192 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:57:08,192 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:57:08,192 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:57:08,192 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:57:08,192 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:57:08,192 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:57:08,192 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:57:08,193 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:57:08,195 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:57:08,196 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos3:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+Welcome to ZooKeeper!
+2016-12-16 14:57:08,229 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos3/192.168.147.12:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-12-16 14:57:08,241 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@876] - Socket connection established to centos3/192.168.147.12:2181, initiating session
+JLine support is enabled
+2016-12-16 14:57:08,263 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos3/192.168.147.12:2181, sessionid = 0x35906266e1d0004, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos3:2181(CONNECTED) 0] create /zk-test zookeeper-test
+Created /zk-test
+[zk: centos3:2181(CONNECTED) 1] 
+2016-12-16 14:57:09,424 INFO COMMAND: echo get /zk-test | /usr/zookeeper/bin/zkCli.sh -server centos3:2181
+2016-12-16 14:57:09,426 INFO OUTPUT : Connecting to centos3:2181
+2016-12-16 14:57:08,900 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:57:08,918 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:57:08,922 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:57:08,924 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:57:08,925 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:57:08,925 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:57:08,925 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:57:08,925 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:57:08,925 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:57:08,925 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:57:08,925 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:57:08,926 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:57:08,926 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:57:08,926 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:57:08,926 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:57:08,927 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos3:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+Welcome to ZooKeeper!
+2016-12-16 14:57:08,982 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos3/192.168.147.12:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-12-16 14:57:08,992 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@876] - Socket connection established to centos3/192.168.147.12:2181, initiating session
+JLine support is enabled
+[zk: centos3:2181(CONNECTING) 0] get /zk-test
+2016-12-16 14:57:09,064 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos3/192.168.147.12:2181, sessionid = 0x35906266e1d0005, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+zookeeper-test
+cZxid = 0x5f0000022a
+ctime = Fri Dec 16 14:58:28 CST 2016
+mZxid = 0x5f0000022a
+mtime = Fri Dec 16 14:58:28 CST 2016
+pZxid = 0x5f0000022a
+cversion = 0
+dataVersion = 0
+aclVersion = 0
+ephemeralOwner = 0x0
+dataLength = 14
+numChildren = 0
+[zk: centos3:2181(CONNECTED) 1] 
+2016-12-16 14:57:10,167 INFO COMMAND: echo set /zk-test zk_test | /usr/zookeeper/bin/zkCli.sh -server centos3:2181
+2016-12-16 14:57:10,169 INFO OUTPUT : Connecting to centos3:2181
+2016-12-16 14:57:09,674 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:57:09,681 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:57:09,681 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:57:09,685 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:57:09,685 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:57:09,685 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:57:09,685 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:57:09,685 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:57:09,686 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:57:09,686 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:57:09,686 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:57:09,686 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:57:09,686 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:57:09,686 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:57:09,686 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:57:09,688 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos3:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+Welcome to ZooKeeper!
+2016-12-16 14:57:09,725 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos3/192.168.147.12:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-12-16 14:57:09,734 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@876] - Socket connection established to centos3/192.168.147.12:2181, initiating session
+JLine support is enabled
+2016-12-16 14:57:09,759 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos3/192.168.147.12:2181, sessionid = 0x35906266e1d0006, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos3:2181(CONNECTED) 0] set /zk-test zk_test
+cZxid = 0x5f0000022a
+ctime = Fri Dec 16 14:58:28 CST 2016
+mZxid = 0x5f0000022d
+mtime = Fri Dec 16 14:58:29 CST 2016
+pZxid = 0x5f0000022a
+cversion = 0
+dataVersion = 1
+aclVersion = 0
+ephemeralOwner = 0x0
+dataLength = 7
+numChildren = 0
+[zk: centos3:2181(CONNECTED) 1] 
+2016-12-16 14:57:10,938 INFO COMMAND: echo delete /zk-test | /usr/zookeeper/bin/zkCli.sh -server centos3:2181
+2016-12-16 14:57:10,942 INFO OUTPUT : Connecting to centos3:2181
+2016-12-16 14:57:10,407 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:57:10,428 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:57:10,428 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:57:10,437 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:57:10,438 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:57:10,439 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:57:10,439 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:57:10,439 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:57:10,439 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:57:10,439 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:57:10,439 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:57:10,439 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:57:10,440 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:57:10,440 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:57:10,440 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:57:10,445 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos3:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+Welcome to ZooKeeper!
+2016-12-16 14:57:10,508 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos3/192.168.147.12:2181. Will not attempt to authenticate using SASL (unknown error)
+JLine support is enabled
+2016-12-16 14:57:10,520 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@876] - Socket connection established to centos3/192.168.147.12:2181, initiating session
+2016-12-16 14:57:10,541 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos3/192.168.147.12:2181, sessionid = 0x35906266e1d0007, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos3:2181(CONNECTED) 0] delete /zk-test
+[zk: centos3:2181(CONNECTED) 1] 
+2016-12-16 14:57:11,659 INFO COMMAND: echo ls / | /usr/zookeeper/bin/zkCli.sh -server centos3:2181
+2016-12-16 14:57:11,662 INFO OUTPUT : Connecting to centos3:2181
+2016-12-16 14:57:11,191 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:57:11,200 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:57:11,200 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:57:11,203 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:57:11,203 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:57:11,203 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:57:11,203 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:57:11,204 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:57:11,204 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:57:11,204 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:57:11,204 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:57:11,204 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:57:11,204 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:57:11,204 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:57:11,204 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:57:11,206 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos3:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+2016-12-16 14:57:11,235 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos3/192.168.147.12:2181. Will not attempt to authenticate using SASL (unknown error)
+Welcome to ZooKeeper!
+2016-12-16 14:57:11,248 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@876] - Socket connection established to centos3/192.168.147.12:2181, initiating session
+JLine support is enabled
+2016-12-16 14:57:11,274 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos3/192.168.147.12:2181, sessionid = 0x35906266e1d0008, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos3:2181(CONNECTED) 0] ls /
+[hadoopconfig, hadoop-ha, zookeeper, rmstore, zk, yarn-leader-election]
+[zk: centos3:2181(CONNECTED) 1] 
+2016-12-16 14:58:00,521 ERROR FAILED_COMMAND: kinit zookeeper/centos1 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 14:58:00,523 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 14:58:01,257 INFO COMMAND: echo ls / | /usr/zookeeper/bin/zkCli.sh -server centos1:2181
+2016-12-16 14:58:01,259 INFO OUTPUT : Connecting to centos1:2181
+2016-12-16 14:58:00,786 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:58:00,796 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:58:00,796 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:58:00,801 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:58:00,801 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:58:00,801 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:58:00,801 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:58:00,801 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:58:00,801 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:58:00,801 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:58:00,802 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:58:00,802 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:58:00,802 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:58:00,802 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:58:00,802 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:58:00,803 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos1:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+Welcome to ZooKeeper!
+2016-12-16 14:58:00,839 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos1/192.168.147.10:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-12-16 14:58:00,850 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@876] - Socket connection established to centos1/192.168.147.10:2181, initiating session
+JLine support is enabled
+2016-12-16 14:58:00,877 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos1/192.168.147.10:2181, sessionid = 0x159062533f6000a, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos1:2181(CONNECTED) 0] ls /
+[hadoopconfig, hadoop-ha, zookeeper, rmstore, zk, yarn-leader-election]
+[zk: centos1:2181(CONNECTED) 1] 
+2016-12-16 14:58:01,972 INFO COMMAND: echo create /zk-test zookeeper-test | /usr/zookeeper/bin/zkCli.sh -server centos1:2181
+2016-12-16 14:58:01,975 INFO OUTPUT : Connecting to centos1:2181
+2016-12-16 14:58:01,496 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:58:01,503 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:58:01,505 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:58:01,509 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:58:01,509 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:58:01,509 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:58:01,509 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:58:01,510 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:58:01,510 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:58:01,510 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:58:01,510 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:58:01,510 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:58:01,510 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:58:01,510 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:58:01,511 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:58:01,512 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos1:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+Welcome to ZooKeeper!
+2016-12-16 14:58:01,550 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos1/192.168.147.10:2181. Will not attempt to authenticate using SASL (unknown error)
+JLine support is enabled
+2016-12-16 14:58:01,562 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@876] - Socket connection established to centos1/192.168.147.10:2181, initiating session
+2016-12-16 14:58:01,587 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos1/192.168.147.10:2181, sessionid = 0x159062533f6000b, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos1:2181(CONNECTED) 0] create /zk-test zookeeper-test
+Created /zk-test
+[zk: centos1:2181(CONNECTED) 1] 
+2016-12-16 14:58:02,757 INFO COMMAND: echo get /zk-test | /usr/zookeeper/bin/zkCli.sh -server centos1:2181
+2016-12-16 14:58:02,758 INFO OUTPUT : Connecting to centos1:2181
+2016-12-16 14:58:02,292 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:58:02,298 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:58:02,299 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:58:02,301 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:58:02,302 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:58:02,302 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:58:02,302 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:58:02,302 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:58:02,302 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:58:02,302 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:58:02,303 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:58:02,303 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:58:02,303 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:58:02,303 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:58:02,303 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:58:02,304 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos1:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+2016-12-16 14:58:02,334 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos1/192.168.147.10:2181. Will not attempt to authenticate using SASL (unknown error)
+Welcome to ZooKeeper!
+2016-12-16 14:58:02,348 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@876] - Socket connection established to centos1/192.168.147.10:2181, initiating session
+JLine support is enabled
+2016-12-16 14:58:02,372 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos1/192.168.147.10:2181, sessionid = 0x159062533f6000c, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos1:2181(CONNECTED) 0] get /zk-test
+zookeeper-test
+cZxid = 0x5f0000024a
+ctime = Fri Dec 16 14:59:21 CST 2016
+mZxid = 0x5f0000024a
+mtime = Fri Dec 16 14:59:21 CST 2016
+pZxid = 0x5f0000024a
+cversion = 0
+dataVersion = 0
+aclVersion = 0
+ephemeralOwner = 0x0
+dataLength = 14
+numChildren = 0
+[zk: centos1:2181(CONNECTED) 1] 
+2016-12-16 14:58:03,492 INFO COMMAND: echo set /zk-test zk_test | /usr/zookeeper/bin/zkCli.sh -server centos1:2181
+2016-12-16 14:58:03,494 INFO OUTPUT : Connecting to centos1:2181
+2016-12-16 14:58:03,007 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:58:03,015 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:58:03,015 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:58:03,019 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:58:03,019 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:58:03,020 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:58:03,020 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:58:03,020 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:58:03,020 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:58:03,020 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:58:03,020 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:58:03,020 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:58:03,021 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:58:03,021 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:58:03,021 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:58:03,022 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos1:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+2016-12-16 14:58:03,057 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos1/192.168.147.10:2181. Will not attempt to authenticate using SASL (unknown error)
+Welcome to ZooKeeper!
+2016-12-16 14:58:03,071 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@876] - Socket connection established to centos1/192.168.147.10:2181, initiating session
+JLine support is enabled
+2016-12-16 14:58:03,100 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos1/192.168.147.10:2181, sessionid = 0x159062533f6000d, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos1:2181(CONNECTED) 0] set /zk-test zk_test
+cZxid = 0x5f0000024a
+ctime = Fri Dec 16 14:59:21 CST 2016
+mZxid = 0x5f0000024d
+mtime = Fri Dec 16 14:59:23 CST 2016
+pZxid = 0x5f0000024a
+cversion = 0
+dataVersion = 1
+aclVersion = 0
+ephemeralOwner = 0x0
+dataLength = 7
+numChildren = 0
+[zk: centos1:2181(CONNECTED) 1] 
+2016-12-16 14:58:04,204 INFO COMMAND: echo delete /zk-test | /usr/zookeeper/bin/zkCli.sh -server centos1:2181
+2016-12-16 14:58:04,206 INFO OUTPUT : Connecting to centos1:2181
+2016-12-16 14:58:03,733 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:58:03,741 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:58:03,741 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:58:03,745 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:58:03,745 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:58:03,745 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:58:03,746 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:58:03,746 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:58:03,746 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:58:03,746 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:58:03,747 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:58:03,747 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:58:03,747 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:58:03,747 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:58:03,747 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:58:03,749 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos1:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+2016-12-16 14:58:03,783 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos1/192.168.147.10:2181. Will not attempt to authenticate using SASL (unknown error)
+Welcome to ZooKeeper!
+2016-12-16 14:58:03,797 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@876] - Socket connection established to centos1/192.168.147.10:2181, initiating session
+JLine support is enabled
+2016-12-16 14:58:03,821 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos1/192.168.147.10:2181, sessionid = 0x159062533f6000e, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos1:2181(CONNECTED) 0] delete /zk-test
+[zk: centos1:2181(CONNECTED) 1] 
+2016-12-16 14:58:04,927 INFO COMMAND: echo ls / | /usr/zookeeper/bin/zkCli.sh -server centos1:2181
+2016-12-16 14:58:04,928 INFO OUTPUT : Connecting to centos1:2181
+2016-12-16 14:58:04,458 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:58:04,466 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:58:04,466 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:58:04,471 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:58:04,471 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:58:04,471 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:58:04,471 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:58:04,471 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:58:04,471 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:58:04,471 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:58:04,472 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:58:04,472 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:58:04,472 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:58:04,472 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:58:04,472 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:58:04,474 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos1:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+Welcome to ZooKeeper!
+2016-12-16 14:58:04,511 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos1/192.168.147.10:2181. Will not attempt to authenticate using SASL (unknown error)
+JLine support is enabled
+2016-12-16 14:58:04,523 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@876] - Socket connection established to centos1/192.168.147.10:2181, initiating session
+2016-12-16 14:58:04,553 [myid:] - INFO  [main-SendThread(centos1:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos1/192.168.147.10:2181, sessionid = 0x159062533f6000f, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos1:2181(CONNECTED) 0] ls /
+[hadoopconfig, hadoop-ha, zookeeper, rmstore, zk, yarn-leader-election]
+[zk: centos1:2181(CONNECTED) 1] 
+2016-12-16 14:58:04,934 ERROR FAILED_COMMAND: kinit zookeeper/centos1 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 14:58:04,936 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 14:58:05,797 INFO COMMAND: echo ls / | /usr/zookeeper/bin/zkCli.sh -server centos2:2181
+2016-12-16 14:58:05,799 INFO OUTPUT : Connecting to centos2:2181
+2016-12-16 14:58:05,231 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:58:05,247 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:58:05,247 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:58:05,253 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:58:05,253 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:58:05,253 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:58:05,256 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:58:05,256 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:58:05,256 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:58:05,257 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:58:05,257 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:58:05,258 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:58:05,258 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:58:05,258 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:58:05,258 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:58:05,259 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos2:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+Welcome to ZooKeeper!
+2016-12-16 14:58:05,333 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos2/192.168.147.11:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-12-16 14:58:05,353 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@876] - Socket connection established to centos2/192.168.147.11:2181, initiating session
+JLine support is enabled
+2016-12-16 14:58:05,389 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos2/192.168.147.11:2181, sessionid = 0x25906266c6b000a, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos2:2181(CONNECTED) 0] ls /
+[hadoopconfig, hadoop-ha, zookeeper, zk, rmstore, yarn-leader-election]
+[zk: centos2:2181(CONNECTED) 1] 
+2016-12-16 14:58:06,515 INFO COMMAND: echo create /zk-test zookeeper-test | /usr/zookeeper/bin/zkCli.sh -server centos2:2181
+2016-12-16 14:58:06,516 INFO OUTPUT : Connecting to centos2:2181
+2016-12-16 14:58:06,042 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:58:06,049 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:58:06,050 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:58:06,055 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:58:06,055 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:58:06,055 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:58:06,055 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:58:06,055 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:58:06,055 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:58:06,055 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:58:06,056 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:58:06,056 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:58:06,056 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:58:06,056 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:58:06,056 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:58:06,057 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos2:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+Welcome to ZooKeeper!
+2016-12-16 14:58:06,100 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos2/192.168.147.11:2181. Will not attempt to authenticate using SASL (unknown error)
+JLine support is enabled
+2016-12-16 14:58:06,110 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@876] - Socket connection established to centos2/192.168.147.11:2181, initiating session
+2016-12-16 14:58:06,139 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos2/192.168.147.11:2181, sessionid = 0x25906266c6b000b, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos2:2181(CONNECTED) 0] create /zk-test zookeeper-test
+Created /zk-test
+[zk: centos2:2181(CONNECTED) 1] 
+2016-12-16 14:58:07,229 INFO COMMAND: echo get /zk-test | /usr/zookeeper/bin/zkCli.sh -server centos2:2181
+2016-12-16 14:58:07,230 INFO OUTPUT : Connecting to centos2:2181
+2016-12-16 14:58:06,756 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:58:06,766 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:58:06,767 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:58:06,769 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:58:06,769 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:58:06,769 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:58:06,769 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:58:06,769 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:58:06,769 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:58:06,769 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:58:06,770 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:58:06,770 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:58:06,770 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:58:06,770 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:58:06,770 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:58:06,772 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos2:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+Welcome to ZooKeeper!
+2016-12-16 14:58:06,805 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos2/192.168.147.11:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-12-16 14:58:06,819 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@876] - Socket connection established to centos2/192.168.147.11:2181, initiating session
+JLine support is enabled
+2016-12-16 14:58:06,843 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos2/192.168.147.11:2181, sessionid = 0x25906266c6b000c, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos2:2181(CONNECTED) 0] get /zk-test
+zookeeper-test
+cZxid = 0x5f00000253
+ctime = Fri Dec 16 14:59:26 CST 2016
+mZxid = 0x5f00000253
+mtime = Fri Dec 16 14:59:26 CST 2016
+pZxid = 0x5f00000253
+cversion = 0
+dataVersion = 0
+aclVersion = 0
+ephemeralOwner = 0x0
+dataLength = 14
+numChildren = 0
+[zk: centos2:2181(CONNECTED) 1] 
+2016-12-16 14:58:07,943 INFO COMMAND: echo set /zk-test zk_test | /usr/zookeeper/bin/zkCli.sh -server centos2:2181
+2016-12-16 14:58:07,944 INFO OUTPUT : Connecting to centos2:2181
+2016-12-16 14:58:07,464 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:58:07,473 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:58:07,473 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:58:07,479 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:58:07,480 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:58:07,480 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:58:07,480 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:58:07,480 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:58:07,480 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:58:07,480 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:58:07,481 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:58:07,481 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:58:07,481 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:58:07,481 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:58:07,481 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:58:07,483 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos2:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+Welcome to ZooKeeper!
+2016-12-16 14:58:07,522 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos2/192.168.147.11:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-12-16 14:58:07,534 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@876] - Socket connection established to centos2/192.168.147.11:2181, initiating session
+JLine support is enabled
+2016-12-16 14:58:07,567 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos2/192.168.147.11:2181, sessionid = 0x25906266c6b000d, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos2:2181(CONNECTED) 0] set /zk-test zk_test
+cZxid = 0x5f00000253
+ctime = Fri Dec 16 14:59:26 CST 2016
+mZxid = 0x5f00000256
+mtime = Fri Dec 16 14:59:27 CST 2016
+pZxid = 0x5f00000253
+cversion = 0
+dataVersion = 1
+aclVersion = 0
+ephemeralOwner = 0x0
+dataLength = 7
+numChildren = 0
+[zk: centos2:2181(CONNECTED) 1] 
+2016-12-16 14:58:08,670 INFO COMMAND: echo delete /zk-test | /usr/zookeeper/bin/zkCli.sh -server centos2:2181
+2016-12-16 14:58:08,672 INFO OUTPUT : Connecting to centos2:2181
+2016-12-16 14:58:08,209 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:58:08,218 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:58:08,218 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:58:08,221 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:58:08,221 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:58:08,221 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:58:08,221 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:58:08,221 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:58:08,221 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:58:08,222 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:58:08,222 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:58:08,222 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:58:08,222 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:58:08,222 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:58:08,222 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:58:08,225 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos2:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+Welcome to ZooKeeper!
+2016-12-16 14:58:08,261 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos2/192.168.147.11:2181. Will not attempt to authenticate using SASL (unknown error)
+JLine support is enabled
+2016-12-16 14:58:08,270 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@876] - Socket connection established to centos2/192.168.147.11:2181, initiating session
+2016-12-16 14:58:08,295 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos2/192.168.147.11:2181, sessionid = 0x25906266c6b000e, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos2:2181(CONNECTED) 0] delete /zk-test
+[zk: centos2:2181(CONNECTED) 1] 
+2016-12-16 14:58:09,369 INFO COMMAND: echo ls / | /usr/zookeeper/bin/zkCli.sh -server centos2:2181
+2016-12-16 14:58:09,370 INFO OUTPUT : Connecting to centos2:2181
+2016-12-16 14:58:08,904 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:58:08,912 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:58:08,913 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:58:08,917 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:58:08,918 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:58:08,918 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:58:08,918 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:58:08,918 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:58:08,918 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:58:08,918 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:58:08,918 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:58:08,919 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:58:08,919 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:58:08,919 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:58:08,919 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:58:08,921 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos2:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+2016-12-16 14:58:08,951 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos2/192.168.147.11:2181. Will not attempt to authenticate using SASL (unknown error)
+Welcome to ZooKeeper!
+2016-12-16 14:58:08,965 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@876] - Socket connection established to centos2/192.168.147.11:2181, initiating session
+JLine support is enabled
+2016-12-16 14:58:08,989 [myid:] - INFO  [main-SendThread(centos2:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos2/192.168.147.11:2181, sessionid = 0x25906266c6b000f, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos2:2181(CONNECTED) 0] ls /
+[hadoopconfig, hadoop-ha, zookeeper, zk, rmstore, yarn-leader-election]
+[zk: centos2:2181(CONNECTED) 1] 
+2016-12-16 14:58:09,375 ERROR FAILED_COMMAND: kinit zookeeper/centos1 -kt /etc/zookeeper1/zookeeper.keytab
+2016-12-16 14:58:09,376 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 14:58:10,196 INFO COMMAND: echo ls / | /usr/zookeeper/bin/zkCli.sh -server centos3:2181
+2016-12-16 14:58:10,198 INFO OUTPUT : Connecting to centos3:2181
+2016-12-16 14:58:09,682 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:58:09,700 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:58:09,700 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:58:09,706 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:58:09,707 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:58:09,708 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:58:09,708 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:58:09,708 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:58:09,708 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:58:09,708 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:58:09,709 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:58:09,710 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:58:09,710 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:58:09,712 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:58:09,713 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:58:09,718 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos3:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+Welcome to ZooKeeper!
+2016-12-16 14:58:09,756 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos3/192.168.147.12:2181. Will not attempt to authenticate using SASL (unknown error)
+JLine support is enabled
+2016-12-16 14:58:09,772 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@876] - Socket connection established to centos3/192.168.147.12:2181, initiating session
+[zk: centos3:2181(CONNECTING) 0] ls /
+2016-12-16 14:58:09,848 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos3/192.168.147.12:2181, sessionid = 0x35906266e1d0009, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[hadoopconfig, hadoop-ha, zookeeper, rmstore, zk, yarn-leader-election]
+[zk: centos3:2181(CONNECTED) 1] 
+2016-12-16 14:58:10,894 INFO COMMAND: echo create /zk-test zookeeper-test | /usr/zookeeper/bin/zkCli.sh -server centos3:2181
+2016-12-16 14:58:10,897 INFO OUTPUT : Connecting to centos3:2181
+2016-12-16 14:58:10,434 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:58:10,444 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:58:10,444 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:58:10,447 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:58:10,447 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:58:10,447 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:58:10,448 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:58:10,448 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:58:10,448 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:58:10,448 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:58:10,448 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:58:10,449 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:58:10,449 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:58:10,449 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:58:10,449 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:58:10,450 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos3:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+2016-12-16 14:58:10,481 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos3/192.168.147.12:2181. Will not attempt to authenticate using SASL (unknown error)
+Welcome to ZooKeeper!
+2016-12-16 14:58:10,494 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@876] - Socket connection established to centos3/192.168.147.12:2181, initiating session
+JLine support is enabled
+2016-12-16 14:58:10,522 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos3/192.168.147.12:2181, sessionid = 0x35906266e1d000a, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos3:2181(CONNECTED) 0] create /zk-test zookeeper-test
+Created /zk-test
+[zk: centos3:2181(CONNECTED) 1] 
+2016-12-16 14:58:11,603 INFO COMMAND: echo get /zk-test | /usr/zookeeper/bin/zkCli.sh -server centos3:2181
+2016-12-16 14:58:11,604 INFO OUTPUT : Connecting to centos3:2181
+2016-12-16 14:58:11,138 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:58:11,144 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:58:11,146 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:58:11,149 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:58:11,150 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:58:11,150 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:58:11,150 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:58:11,151 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:58:11,151 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:58:11,151 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:58:11,151 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:58:11,151 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:58:11,151 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:58:11,151 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:58:11,152 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:58:11,153 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos3:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+Welcome to ZooKeeper!
+2016-12-16 14:58:11,191 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos3/192.168.147.12:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-12-16 14:58:11,200 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@876] - Socket connection established to centos3/192.168.147.12:2181, initiating session
+JLine support is enabled
+2016-12-16 14:58:11,221 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos3/192.168.147.12:2181, sessionid = 0x35906266e1d000b, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos3:2181(CONNECTED) 0] get /zk-test
+zookeeper-test
+cZxid = 0x5f0000025d
+ctime = Fri Dec 16 14:59:30 CST 2016
+mZxid = 0x5f0000025d
+mtime = Fri Dec 16 14:59:30 CST 2016
+pZxid = 0x5f0000025d
+cversion = 0
+dataVersion = 0
+aclVersion = 0
+ephemeralOwner = 0x0
+dataLength = 14
+numChildren = 0
+[zk: centos3:2181(CONNECTED) 1] 
+2016-12-16 14:58:12,322 INFO COMMAND: echo set /zk-test zk_test | /usr/zookeeper/bin/zkCli.sh -server centos3:2181
+2016-12-16 14:58:12,324 INFO OUTPUT : Connecting to centos3:2181
+2016-12-16 14:58:11,849 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:58:11,855 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:58:11,856 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:58:11,861 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:58:11,861 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:58:11,861 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:58:11,862 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:58:11,862 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:58:11,862 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:58:11,862 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:58:11,862 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:58:11,862 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:58:11,862 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:58:11,862 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:58:11,863 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:58:11,864 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos3:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+2016-12-16 14:58:11,899 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos3/192.168.147.12:2181. Will not attempt to authenticate using SASL (unknown error)
+Welcome to ZooKeeper!
+2016-12-16 14:58:11,916 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@876] - Socket connection established to centos3/192.168.147.12:2181, initiating session
+JLine support is enabled
+2016-12-16 14:58:11,941 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos3/192.168.147.12:2181, sessionid = 0x35906266e1d000c, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos3:2181(CONNECTED) 0] set /zk-test zk_test
+cZxid = 0x5f0000025d
+ctime = Fri Dec 16 14:59:30 CST 2016
+mZxid = 0x5f00000260
+mtime = Fri Dec 16 14:59:31 CST 2016
+pZxid = 0x5f0000025d
+cversion = 0
+dataVersion = 1
+aclVersion = 0
+ephemeralOwner = 0x0
+dataLength = 7
+numChildren = 0
+[zk: centos3:2181(CONNECTED) 1] 
+2016-12-16 14:58:13,062 INFO COMMAND: echo delete /zk-test | /usr/zookeeper/bin/zkCli.sh -server centos3:2181
+2016-12-16 14:58:13,063 INFO OUTPUT : Connecting to centos3:2181
+2016-12-16 14:58:12,565 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:58:12,573 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:58:12,573 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:58:12,576 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:58:12,576 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:58:12,576 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:58:12,576 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:58:12,576 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:58:12,576 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:58:12,577 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:58:12,577 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:58:12,577 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:58:12,577 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:58:12,577 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:58:12,577 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:58:12,579 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos3:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+Welcome to ZooKeeper!
+2016-12-16 14:58:12,621 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos3/192.168.147.12:2181. Will not attempt to authenticate using SASL (unknown error)
+JLine support is enabled
+2016-12-16 14:58:12,637 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@876] - Socket connection established to centos3/192.168.147.12:2181, initiating session
+[zk: centos3:2181(CONNECTING) 0] delete /zk-test
+2016-12-16 14:58:12,725 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos3/192.168.147.12:2181, sessionid = 0x35906266e1d000d, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[zk: centos3:2181(CONNECTED) 1] 
+2016-12-16 14:58:13,791 INFO COMMAND: echo ls / | /usr/zookeeper/bin/zkCli.sh -server centos3:2181
+2016-12-16 14:58:13,793 INFO OUTPUT : Connecting to centos3:2181
+2016-12-16 14:58:13,300 [myid:] - INFO  [main:Environment@100] - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-12-16 14:58:13,308 [myid:] - INFO  [main:Environment@100] - Client environment:host.name=centos1
+2016-12-16 14:58:13,308 [myid:] - INFO  [main:Environment@100] - Client environment:java.version=1.7.0_79
+2016-12-16 14:58:13,311 [myid:] - INFO  [main:Environment@100] - Client environment:java.vendor=Oracle Corporation
+2016-12-16 14:58:13,311 [myid:] - INFO  [main:Environment@100] - Client environment:java.home=/usr/java/jdk1.7.0_79/jre
+2016-12-16 14:58:13,311 [myid:] - INFO  [main:Environment@100] - Client environment:java.class.path=/usr/zookeeper/bin/../build/classes:/usr/zookeeper/bin/../build/lib/*.jar:/usr/zookeeper/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/zookeeper/bin/../lib/slf4j-api-1.6.1.jar:/usr/zookeeper/bin/../lib/netty-3.7.0.Final.jar:/usr/zookeeper/bin/../lib/log4j-1.2.16.jar:/usr/zookeeper/bin/../lib/jline-0.9.94.jar:/usr/zookeeper/bin/../zookeeper-3.4.8.jar:/usr/zookeeper/bin/../src/java/lib/*.jar:/usr/zookeeper/bin/../conf:
+2016-12-16 14:58:13,311 [myid:] - INFO  [main:Environment@100] - Client environment:java.library.path=/root/pycharm-2016.2.3/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-16 14:58:13,311 [myid:] - INFO  [main:Environment@100] - Client environment:java.io.tmpdir=/tmp
+2016-12-16 14:58:13,311 [myid:] - INFO  [main:Environment@100] - Client environment:java.compiler=<NA>
+2016-12-16 14:58:13,312 [myid:] - INFO  [main:Environment@100] - Client environment:os.name=Linux
+2016-12-16 14:58:13,312 [myid:] - INFO  [main:Environment@100] - Client environment:os.arch=amd64
+2016-12-16 14:58:13,312 [myid:] - INFO  [main:Environment@100] - Client environment:os.version=2.6.32-431.el6.x86_64
+2016-12-16 14:58:13,312 [myid:] - INFO  [main:Environment@100] - Client environment:user.name=root
+2016-12-16 14:58:13,312 [myid:] - INFO  [main:Environment@100] - Client environment:user.home=/root
+2016-12-16 14:58:13,312 [myid:] - INFO  [main:Environment@100] - Client environment:user.dir=/root/PycharmProjects/checkService
+2016-12-16 14:58:13,315 [myid:] - INFO  [main:ZooKeeper@438] - Initiating client connection, connectString=centos3:2181 sessionTimeout=30000 watcher=org.apache.zookeeper.ZooKeeperMain$MyWatcher@72258097
+2016-12-16 14:58:13,347 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@1032] - Opening socket connection to server centos3/192.168.147.12:2181. Will not attempt to authenticate using SASL (unknown error)
+Welcome to ZooKeeper!
+2016-12-16 14:58:13,362 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@876] - Socket connection established to centos3/192.168.147.12:2181, initiating session
+JLine support is enabled
+[zk: centos3:2181(CONNECTING) 0] ls /
+2016-12-16 14:58:13,458 [myid:] - INFO  [main-SendThread(centos3:2181):ClientCnxn$SendThread@1299] - Session establishment complete on server centos3/192.168.147.12:2181, sessionid = 0x35906266e1d000e, negotiated timeout = 30000
+
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+[hadoopconfig, hadoop-ha, zookeeper, rmstore, zk, yarn-leader-election]
+[zk: centos3:2181(CONNECTED) 1] 

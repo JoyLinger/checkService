@@ -60,12 +60,12 @@ class Formatter:
         # print self.separator
 
         for info in content_list:
-            self.content = formatFeedLines(self.content, info, info_max, none_list)
+            self.content = formatFeedLines("|", info, info_max, none_list)
             self.contents += "\n" + self.content + "\n" + self.separator
             # print self.content
-            self.content = "|"
             # print self.separator
         return self.title_and_head + self.contents
+
 
 def formatFeedLines(line, info, info_max, none_list):
     """When line feed or contains '\n', do as below."""
@@ -94,6 +94,7 @@ def formatFeedLines(line, info, info_max, none_list):
             if next_line_content == none_list:
                 flag = "false"
     return line
+
 
 def formatTabLine(info):
     """When line contains '\t', replace it using four [SPACE]."""

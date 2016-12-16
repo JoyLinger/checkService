@@ -1,25 +1,29 @@
-import util.cmdRunner as runCmd
-import util.outputFormatter as opf
-import util.configReader as cr
 import os
+
+import util.cmdRunner as runCmd
+import util.configReader as cr
+import util.outputFormatter as opf
+
 
 def getCmdsFromFile(path):
     """Return commands as list."""
     return cr.ReadConf(path).getCmdList(key="cmd")
 
-def testZookeeper(kinit, header, hosts, logName="zk", cmdPath="cmd/zookeeper"):
+
+def testZookeeper(kinit, header, hosts, logName="zk", cmdPath="cmd/zookeeper", zkCliPath="/usr/lib/zookeeper/bin"):
     """To test ZK and print test result.
     :param kinit:
     :param header:
     :param hosts:
     :param logName: logger in file: conf/logger.conf
     :param cmdPath:
+    :param zkCliPath:
     """
     for fp in os.listdir(cmdPath):
         cmdList = getCmdsFromFile(path="%s/%s" % (cmdPath, fp))
         for host in hosts:
             commands = [kinit]
-            zkcli = "/usr/lib/zookeeper/bin/zkCli.sh -server %s:2181" % host
+            zkcli = "%s/zkCli.sh -server %s:2181" % (zkCliPath, host)
             for cmd in cmdList:
                 commands.append("echo %s | %s" % (cmd, zkcli))
             contents = runCmd.run_all_check_command(commands, logName)
@@ -27,6 +31,7 @@ def testZookeeper(kinit, header, hosts, logName="zk", cmdPath="cmd/zookeeper"):
             #     contents[i][0] = cmds[i - 1]
             res = opf.Formatter().formatted_output("ZooKeeper on %s" % host, header, contents)
             print res
+
 
 def testHdfs(kinit, header, hosts, logName="hdfs", cmdPath="cmd/hdfs"):
     """To test HDFS and print test result."""
@@ -40,6 +45,7 @@ def testHdfs(kinit, header, hosts, logName="hdfs", cmdPath="cmd/hdfs"):
             res = opf.Formatter().formatted_output("Active NameNode on %s" % host, header, contents)
             print res
 
+
 def testYarn(kinit, header, hosts, logName="yarn", cmdPath="cmd/yarn"):
     """To test YARN and print test result."""
     for fp in os.listdir(cmdPath):
@@ -51,6 +57,7 @@ def testYarn(kinit, header, hosts, logName="yarn", cmdPath="cmd/yarn"):
             contents = runCmd.run_all_check_command(commands, logName)
             res = opf.Formatter().formatted_output("Yarn on %s" % host, header, contents)
             print res
+
 
 # def testHbase(this_host, header, rc, logName):
 #     """To test HyperBase and print test result."""
@@ -77,6 +84,7 @@ def testHyperbase(kinit, header, hosts, logName="hbase", cmdPath="cmd/hyperbase"
         contents = runCmd.run_all_check_command(commands, logName)
         res = opf.Formatter().formatted_output("HyperBase on %s" % h, header, contents)
         print res
+
 
 def testInceptorServer2(kinit, header, hosts, logName="hive", cmdPath="cmd/inceptor", database="default", realm="TDH"):
     """To test InceptorServer2 and print test result."""

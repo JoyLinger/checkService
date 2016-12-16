@@ -16903,3 +16903,57 @@ Caused by: java.net.NoRouteToHostException: No route to host
 	at org.apache.hadoop.ipc.Client.call(Client.java:1451)
 	... 28 more
 mkdir: No Route to Host from  centos1/192.168.147.10 to centos2:8020 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost
+2016-12-16 14:28:10,563 ERROR FAILED_COMMAND: kinit hdfs/centos1 -kt /etc/hdfs1/hdfs.keytab
+2016-12-16 14:28:10,592 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 14:28:24,816 INFO COMMAND: hdfs dfs -mkdir -p /tmp/check_hdfs/
+2016-12-16 14:28:24,817 INFO OUTPUT : 
+2016-12-16 14:28:39,748 INFO COMMAND: hdfs dfs -put /tmp/check_hdfs/checkHdfsStatus.txt /tmp/check_hdfs/
+2016-12-16 14:28:39,749 INFO OUTPUT : 
+2016-12-16 14:28:54,614 INFO COMMAND: hdfs dfs -put /etc/hosts /tmp/check_hdfs/
+2016-12-16 14:28:54,616 INFO OUTPUT : 
+2016-12-16 14:29:09,342 INFO COMMAND: hdfs dfs -get /tmp/check_hdfs/checkHdfsStatus.txt /tmp/check_hdfs/checkHdfsStatus_get.txt
+2016-12-16 14:29:09,343 INFO OUTPUT : 
+2016-12-16 14:29:23,610 INFO COMMAND: hdfs dfs -ls /tmp/check_hdfs/
+2016-12-16 14:29:23,611 INFO OUTPUT : Found 2 items
+-rw-r--r--   2 root supergroup         71 2016-12-16 14:29 /tmp/check_hdfs/checkHdfsStatus.txt
+-rw-r--r--   2 root supergroup        170 2016-12-16 14:30 /tmp/check_hdfs/hosts
+2016-12-16 14:29:37,858 INFO COMMAND: hdfs dfs -cat /tmp/check_hdfs/hosts
+2016-12-16 14:29:37,859 INFO OUTPUT : 127.0.0.1     localhost
+192.168.147.10 centos1
+192.168.147.11 centos2
+192.168.147.12 centos3
+
+172.16.2.203 tw-suse2203
+172.16.2.204 tw-suse2204
+172.16.2.205 tw-suse2205
+
+2016-12-16 14:29:52,080 INFO COMMAND: hdfs dfs -rm -R /tmp/check_hdfs/
+2016-12-16 14:29:52,082 INFO OUTPUT : 16/12/16 14:29:51 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+Deleted /tmp/check_hdfs
+2016-12-16 14:58:21,270 ERROR FAILED_COMMAND: kinit hdfs/centos1 -kt /etc/hdfs1/hdfs.keytab
+2016-12-16 14:58:21,271 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 14:58:35,853 INFO COMMAND: hdfs dfs -mkdir -p /tmp/check_hdfs/
+2016-12-16 14:58:35,855 INFO OUTPUT : 
+2016-12-16 14:58:51,243 INFO COMMAND: hdfs dfs -put /tmp/check_hdfs/checkHdfsStatus.txt /tmp/check_hdfs/
+2016-12-16 14:58:51,244 INFO OUTPUT : 
+2016-12-16 14:59:06,469 INFO COMMAND: hdfs dfs -put /etc/hosts /tmp/check_hdfs/
+2016-12-16 14:59:06,471 INFO OUTPUT : 
+2016-12-16 14:59:21,694 INFO COMMAND: hdfs dfs -get /tmp/check_hdfs/checkHdfsStatus.txt /tmp/check_hdfs/checkHdfsStatus_get.txt
+2016-12-16 14:59:21,695 INFO OUTPUT : 
+2016-12-16 14:59:36,359 INFO COMMAND: hdfs dfs -ls /tmp/check_hdfs/
+2016-12-16 14:59:36,361 INFO OUTPUT : Found 2 items
+-rw-r--r--   2 root supergroup         71 2016-12-16 15:00 /tmp/check_hdfs/checkHdfsStatus.txt
+-rw-r--r--   2 root supergroup        170 2016-12-16 15:00 /tmp/check_hdfs/hosts
+2016-12-16 14:59:50,923 INFO COMMAND: hdfs dfs -cat /tmp/check_hdfs/hosts
+2016-12-16 14:59:50,925 INFO OUTPUT : 127.0.0.1     localhost
+192.168.147.10 centos1
+192.168.147.11 centos2
+192.168.147.12 centos3
+
+172.16.2.203 tw-suse2203
+172.16.2.204 tw-suse2204
+172.16.2.205 tw-suse2205
+
+2016-12-16 15:00:05,497 INFO COMMAND: hdfs dfs -rm -R /tmp/check_hdfs/
+2016-12-16 15:00:05,498 INFO OUTPUT : 16/12/16 15:00:05 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+Deleted /tmp/check_hdfs

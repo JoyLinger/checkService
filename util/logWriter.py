@@ -1,7 +1,7 @@
 import logging.config
 
-class Logger:
 
+class Logger:
     def __init__(self, logName, logConf="conf/logger.conf"):
         self.conf = logConf
         self.name = logName

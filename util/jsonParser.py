@@ -2,6 +2,7 @@ import json
 
 import fileOpener as fo
 
+
 # def checkKeys(keys, vals, one_json):
 #     if len(keys) != len(vals):
 #         return False
@@ -26,6 +27,7 @@ def getServiceInfo(type_service, json_path, type_nameservice=None):
             info_list.append(dict(s))
     return info_list
 
+
 def getRoleInfo(service_id, json_path):
     """Returns role infos as a list.
 
@@ -38,6 +40,7 @@ def getRoleInfo(service_id, json_path):
         if s[u"serviceId"] == int(service_id):
             info_list.append(dict(s))
     return info_list
+
 
 def getNodeInfo(json_path):
     """Returns node infos as a list.

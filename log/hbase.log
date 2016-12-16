@@ -268,3 +268,201 @@
 2016-12-15 10:54:35,656 ERROR ERROR_MESSAGE : sh: hbase: command not found
 2016-12-15 10:54:35,673 ERROR FAILED_COMMAND: hbase --hosts tw-suse2205 shell cmd/hyperbase/test
 2016-12-15 10:54:35,674 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-15 13:40:40,888 ERROR FAILED_COMMAND: kinit hbase/tw-suse2203 -kt /etc/hyperbase1/hbase.keytab
+2016-12-15 13:40:40,889 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-15 13:40:40,895 ERROR FAILED_COMMAND: hbase --hosts tw-suse2203 shell cmd/hyperbase/hbase
+2016-12-15 13:40:40,896 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-15 13:40:40,906 ERROR FAILED_COMMAND: hbase --hosts tw-suse2203 shell cmd/hyperbase/test
+2016-12-15 13:40:40,908 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-15 13:40:40,916 ERROR FAILED_COMMAND: kinit hbase/tw-suse2203 -kt /etc/hyperbase1/hbase.keytab
+2016-12-15 13:40:40,917 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-15 13:40:40,921 ERROR FAILED_COMMAND: hbase --hosts tw-suse2204 shell cmd/hyperbase/hbase
+2016-12-15 13:40:40,923 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-15 13:40:40,928 ERROR FAILED_COMMAND: hbase --hosts tw-suse2204 shell cmd/hyperbase/test
+2016-12-15 13:40:40,929 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-15 13:40:40,934 ERROR FAILED_COMMAND: kinit hbase/tw-suse2203 -kt /etc/hyperbase1/hbase.keytab
+2016-12-15 13:40:40,935 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-15 13:40:40,939 ERROR FAILED_COMMAND: hbase --hosts tw-suse2205 shell cmd/hyperbase/hbase
+2016-12-15 13:40:40,941 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-15 13:40:40,945 ERROR FAILED_COMMAND: hbase --hosts tw-suse2205 shell cmd/hyperbase/test
+2016-12-15 13:40:40,946 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:29:43,661 ERROR FAILED_COMMAND: kinit hbase/tw-suse2203 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 09:29:43,662 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:29:43,667 ERROR FAILED_COMMAND: hbase --hosts tw-suse2203 shell cmd/hyperbase/hbase
+2016-12-16 09:29:43,669 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:29:43,673 ERROR FAILED_COMMAND: hbase --hosts tw-suse2203 shell cmd/hyperbase/test
+2016-12-16 09:29:43,675 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:29:43,679 ERROR FAILED_COMMAND: kinit hbase/tw-suse2203 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 09:29:43,681 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:29:43,691 ERROR FAILED_COMMAND: hbase --hosts tw-suse2204 shell cmd/hyperbase/hbase
+2016-12-16 09:29:43,693 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:29:43,697 ERROR FAILED_COMMAND: hbase --hosts tw-suse2204 shell cmd/hyperbase/test
+2016-12-16 09:29:43,699 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:29:43,704 ERROR FAILED_COMMAND: kinit hbase/tw-suse2203 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 09:29:43,707 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:29:43,712 ERROR FAILED_COMMAND: hbase --hosts tw-suse2205 shell cmd/hyperbase/hbase
+2016-12-16 09:29:43,714 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:29:43,718 ERROR FAILED_COMMAND: hbase --hosts tw-suse2205 shell cmd/hyperbase/test
+2016-12-16 09:29:43,720 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:34:38,971 ERROR FAILED_COMMAND: kinit hbase/tw-suse2203 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 09:34:38,976 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:34:38,988 ERROR FAILED_COMMAND: hbase --hosts tw-suse2203 shell cmd/hyperbase/hbase
+2016-12-16 09:34:38,990 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:34:39,002 ERROR FAILED_COMMAND: hbase --hosts tw-suse2203 shell cmd/hyperbase/test
+2016-12-16 09:34:39,003 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:34:39,026 ERROR FAILED_COMMAND: kinit hbase/tw-suse2203 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 09:34:39,028 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:34:39,043 ERROR FAILED_COMMAND: hbase --hosts tw-suse2204 shell cmd/hyperbase/hbase
+2016-12-16 09:34:39,046 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:34:39,066 ERROR FAILED_COMMAND: hbase --hosts tw-suse2204 shell cmd/hyperbase/test
+2016-12-16 09:34:39,068 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:34:39,085 ERROR FAILED_COMMAND: kinit hbase/tw-suse2203 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 09:34:39,086 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:34:39,109 ERROR FAILED_COMMAND: hbase --hosts tw-suse2205 shell cmd/hyperbase/hbase
+2016-12-16 09:34:39,110 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:34:39,128 ERROR FAILED_COMMAND: hbase --hosts tw-suse2205 shell cmd/hyperbase/test
+2016-12-16 09:34:39,133 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:36:54,645 ERROR FAILED_COMMAND: kinit hbase/tw-suse2203 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 09:36:54,650 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:36:54,664 ERROR FAILED_COMMAND: hbase --hosts tw-suse2203 shell cmd/hyperbase/hbase
+2016-12-16 09:36:54,665 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:36:54,685 ERROR FAILED_COMMAND: hbase --hosts tw-suse2203 shell cmd/hyperbase/test
+2016-12-16 09:36:54,688 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:36:54,702 ERROR FAILED_COMMAND: kinit hbase/tw-suse2203 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 09:36:54,705 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:36:54,726 ERROR FAILED_COMMAND: hbase --hosts tw-suse2204 shell cmd/hyperbase/hbase
+2016-12-16 09:36:54,728 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:36:54,741 ERROR FAILED_COMMAND: hbase --hosts tw-suse2204 shell cmd/hyperbase/test
+2016-12-16 09:36:54,744 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:36:54,756 ERROR FAILED_COMMAND: kinit hbase/tw-suse2203 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 09:36:54,758 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:36:54,775 ERROR FAILED_COMMAND: hbase --hosts tw-suse2205 shell cmd/hyperbase/hbase
+2016-12-16 09:36:54,776 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:36:54,789 ERROR FAILED_COMMAND: hbase --hosts tw-suse2205 shell cmd/hyperbase/test
+2016-12-16 09:36:54,790 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:39:50,496 ERROR FAILED_COMMAND: kinit hbase/tw-suse2203 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 09:39:50,497 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:39:50,510 ERROR FAILED_COMMAND: hbase --hosts tw-suse2203 shell cmd/hyperbase/hbase
+2016-12-16 09:39:50,512 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:39:50,523 ERROR FAILED_COMMAND: hbase --hosts tw-suse2203 shell cmd/hyperbase/test
+2016-12-16 09:39:50,525 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:39:50,543 ERROR FAILED_COMMAND: kinit hbase/tw-suse2203 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 09:39:50,545 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:39:50,557 ERROR FAILED_COMMAND: hbase --hosts tw-suse2204 shell cmd/hyperbase/hbase
+2016-12-16 09:39:50,558 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:39:50,570 ERROR FAILED_COMMAND: hbase --hosts tw-suse2204 shell cmd/hyperbase/test
+2016-12-16 09:39:50,571 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:39:50,587 ERROR FAILED_COMMAND: kinit hbase/tw-suse2203 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 09:39:50,593 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:39:50,619 ERROR FAILED_COMMAND: hbase --hosts tw-suse2205 shell cmd/hyperbase/hbase
+2016-12-16 09:39:50,627 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:39:50,649 ERROR FAILED_COMMAND: hbase --hosts tw-suse2205 shell cmd/hyperbase/test
+2016-12-16 09:39:50,650 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:41:23,215 ERROR FAILED_COMMAND: kinit hbase/tw-suse2203 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 09:41:23,216 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:41:23,232 ERROR FAILED_COMMAND: hbase --hosts tw-suse2203 shell cmd/hyperbase/hbase
+2016-12-16 09:41:23,237 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:41:23,251 ERROR FAILED_COMMAND: hbase --hosts tw-suse2203 shell cmd/hyperbase/test
+2016-12-16 09:41:23,253 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:41:23,271 ERROR FAILED_COMMAND: kinit hbase/tw-suse2203 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 09:41:23,275 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:41:23,291 ERROR FAILED_COMMAND: hbase --hosts tw-suse2204 shell cmd/hyperbase/hbase
+2016-12-16 09:41:23,293 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:41:23,301 ERROR FAILED_COMMAND: hbase --hosts tw-suse2204 shell cmd/hyperbase/test
+2016-12-16 09:41:23,303 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:41:23,307 ERROR FAILED_COMMAND: kinit hbase/tw-suse2203 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 09:41:23,314 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 09:41:23,329 ERROR FAILED_COMMAND: hbase --hosts tw-suse2205 shell cmd/hyperbase/hbase
+2016-12-16 09:41:23,331 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 09:41:23,341 ERROR FAILED_COMMAND: hbase --hosts tw-suse2205 shell cmd/hyperbase/test
+2016-12-16 09:41:23,343 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 10:20:19,272 ERROR FAILED_COMMAND: kinit hbase/tw-suse2203 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 10:20:19,282 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 10:20:19,305 ERROR FAILED_COMMAND: hbase --hosts tw-suse2203 shell cmd/hyperbase/hbase
+2016-12-16 10:20:19,313 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 10:20:19,330 ERROR FAILED_COMMAND: hbase --hosts tw-suse2203 shell cmd/hyperbase/test
+2016-12-16 10:20:19,341 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 10:20:19,363 ERROR FAILED_COMMAND: kinit hbase/tw-suse2203 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 10:20:19,373 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 10:20:19,391 ERROR FAILED_COMMAND: hbase --hosts tw-suse2204 shell cmd/hyperbase/hbase
+2016-12-16 10:20:19,398 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 10:20:19,415 ERROR FAILED_COMMAND: hbase --hosts tw-suse2204 shell cmd/hyperbase/test
+2016-12-16 10:20:19,425 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 10:20:19,449 ERROR FAILED_COMMAND: kinit hbase/tw-suse2203 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 10:20:19,459 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 10:20:19,491 ERROR FAILED_COMMAND: hbase --hosts tw-suse2205 shell cmd/hyperbase/hbase
+2016-12-16 10:20:19,504 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 10:20:19,523 ERROR FAILED_COMMAND: hbase --hosts tw-suse2205 shell cmd/hyperbase/test
+2016-12-16 10:20:19,533 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 10:21:34,406 ERROR FAILED_COMMAND: kinit hbase/tw-suse2203 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 10:21:34,412 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 10:21:34,421 ERROR FAILED_COMMAND: hbase --hosts tw-suse2203 shell cmd/hyperbase/hbase
+2016-12-16 10:21:34,427 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 10:21:34,436 ERROR FAILED_COMMAND: hbase --hosts tw-suse2203 shell cmd/hyperbase/test
+2016-12-16 10:21:34,441 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 10:21:34,456 ERROR FAILED_COMMAND: kinit hbase/tw-suse2203 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 10:21:34,467 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 10:21:34,476 ERROR FAILED_COMMAND: hbase --hosts tw-suse2204 shell cmd/hyperbase/hbase
+2016-12-16 10:21:34,481 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 10:21:34,492 ERROR FAILED_COMMAND: hbase --hosts tw-suse2204 shell cmd/hyperbase/test
+2016-12-16 10:21:34,497 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 10:21:34,509 ERROR FAILED_COMMAND: kinit hbase/tw-suse2203 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 10:21:34,516 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 10:21:34,526 ERROR FAILED_COMMAND: hbase --hosts tw-suse2205 shell cmd/hyperbase/hbase
+2016-12-16 10:21:34,534 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 10:21:34,543 ERROR FAILED_COMMAND: hbase --hosts tw-suse2205 shell cmd/hyperbase/test
+2016-12-16 10:21:34,549 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 10:25:05,973 ERROR FAILED_COMMAND: kinit hbase/tw-suse2203 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 10:25:05,978 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 10:25:05,988 ERROR FAILED_COMMAND: hbase --hosts tw-suse2203 shell cmd/hyperbase/hbase
+2016-12-16 10:25:05,992 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 10:25:06,001 ERROR FAILED_COMMAND: hbase --hosts tw-suse2203 shell cmd/hyperbase/test
+2016-12-16 10:25:06,007 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 10:25:06,018 ERROR FAILED_COMMAND: kinit hbase/tw-suse2203 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 10:25:06,023 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 10:25:06,032 ERROR FAILED_COMMAND: hbase --hosts tw-suse2204 shell cmd/hyperbase/hbase
+2016-12-16 10:25:06,037 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 10:25:06,046 ERROR FAILED_COMMAND: hbase --hosts tw-suse2204 shell cmd/hyperbase/test
+2016-12-16 10:25:06,051 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 10:25:06,061 ERROR FAILED_COMMAND: kinit hbase/tw-suse2203 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 10:25:06,066 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 10:25:06,075 ERROR FAILED_COMMAND: hbase --hosts tw-suse2205 shell cmd/hyperbase/hbase
+2016-12-16 10:25:06,080 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 10:25:06,089 ERROR FAILED_COMMAND: hbase --hosts tw-suse2205 shell cmd/hyperbase/test
+2016-12-16 10:25:06,094 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 14:57:11,688 ERROR FAILED_COMMAND: kinit hbase/centos1 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 14:57:11,690 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 14:57:11,694 ERROR FAILED_COMMAND: hbase --hosts centos1 shell cmd/hyperbase/hbase
+2016-12-16 14:57:11,696 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 14:57:11,700 ERROR FAILED_COMMAND: hbase --hosts centos1 shell cmd/hyperbase/test
+2016-12-16 14:57:11,702 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 14:57:11,709 ERROR FAILED_COMMAND: kinit hbase/centos1 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 14:57:11,712 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 14:57:11,717 ERROR FAILED_COMMAND: hbase --hosts centos2 shell cmd/hyperbase/hbase
+2016-12-16 14:57:11,718 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 14:57:11,722 ERROR FAILED_COMMAND: hbase --hosts centos2 shell cmd/hyperbase/test
+2016-12-16 14:57:11,724 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 14:57:11,731 ERROR FAILED_COMMAND: kinit hbase/centos1 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 14:57:11,732 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 14:57:11,737 ERROR FAILED_COMMAND: hbase --hosts centos3 shell cmd/hyperbase/hbase
+2016-12-16 14:57:11,738 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 14:57:11,743 ERROR FAILED_COMMAND: hbase --hosts centos3 shell cmd/hyperbase/test
+2016-12-16 14:57:11,744 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 14:58:13,801 ERROR FAILED_COMMAND: kinit hbase/centos1 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 14:58:13,804 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 14:58:13,814 ERROR FAILED_COMMAND: hbase --hosts centos1 shell cmd/hyperbase/hbase
+2016-12-16 14:58:13,819 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 14:58:13,826 ERROR FAILED_COMMAND: hbase --hosts centos1 shell cmd/hyperbase/test
+2016-12-16 14:58:13,827 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 14:58:13,832 ERROR FAILED_COMMAND: kinit hbase/centos1 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 14:58:13,834 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 14:58:13,841 ERROR FAILED_COMMAND: hbase --hosts centos2 shell cmd/hyperbase/hbase
+2016-12-16 14:58:13,843 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 14:58:13,847 ERROR FAILED_COMMAND: hbase --hosts centos2 shell cmd/hyperbase/test
+2016-12-16 14:58:13,849 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 14:58:13,859 ERROR FAILED_COMMAND: kinit hbase/centos1 -kt /etc/hyperbase1/hbase.keytab
+2016-12-16 14:58:13,860 ERROR ERROR_MESSAGE : sh: kinit: command not found
+2016-12-16 14:58:13,865 ERROR FAILED_COMMAND: hbase --hosts centos3 shell cmd/hyperbase/hbase
+2016-12-16 14:58:13,867 ERROR ERROR_MESSAGE : sh: hbase: command not found
+2016-12-16 14:58:13,872 ERROR FAILED_COMMAND: hbase --hosts centos3 shell cmd/hyperbase/test
+2016-12-16 14:58:13,874 ERROR ERROR_MESSAGE : sh: hbase: command not found
