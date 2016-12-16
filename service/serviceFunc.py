@@ -76,6 +76,9 @@ def testYarn(kinit, header, hosts, logName="yarn", cmdPath="cmd/yarn"):
 def testHyperbase(kinit, header, hosts, logName="hbase", cmdPath="cmd/hyperbase"):
     """To test HyperBase and print test result."""
     files = os.listdir(cmdPath)
+    if len(files) == 0 or files:
+        print "No command to run. Please check your CMD-FILES in path '%s'" % cmdPath
+        return
     for h in hosts:
         commands = [kinit]
         hbaseShell = "hbase --hosts %s shell" % h
