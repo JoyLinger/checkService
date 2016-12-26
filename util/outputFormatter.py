@@ -46,9 +46,9 @@ class Formatter:
             self.separator += "-" * im + "+"
             total_length += im
         if total_length % 2 == 0:
-            title = "|" + " " * int(total_length / 2) + "\033[31m" + titleName + "\033[0m" + " " * int(total_length / 2) + "|"
+            title = "|" + " " * int(total_length / 2) + "\033[1;34m" + titleName + "\033[0m" + " " * int(total_length / 2) + "|"
         else:
-            title = "|" + " " * int(total_length / 2) + "\033[31m" + titleName + "\033[0m" + " " * int(total_length / 2 + 1) + "|"
+            title = "|" + " " * int(total_length / 2) + "\033[1;34m" + titleName + "\033[0m" + " " * int(total_length / 2 + 1) + "|"
         first_line = "+" + "-" * int(total_length + int(len(titleName))) + "+"
 
         self.title_and_head = first_line + "\n" + title + "\n" + self.separator + "\n" + self.headers + "\n" + self.separator

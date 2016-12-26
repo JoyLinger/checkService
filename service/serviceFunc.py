@@ -1,4 +1,5 @@
 import os
+import sys
 
 import util.cmdRunner as runCmd
 import util.configReader as cr
@@ -20,29 +21,35 @@ def testZookeeper(kinit, header, hosts, logName="zk", cmdPath="cmd/zookeeper", z
     :param zkCliPath:
     """
     for fp in os.listdir(cmdPath):
+        sickNum = 0
         cmdList = getCmdsFromFile(path="%s/%s" % (cmdPath, fp))
         for host in hosts:
+            if sickNum > len(hosts) / 2:
+                print "\033[31mZookeeper is not healthy, stop current test.\033[0m"
+                sys.exit(0)
             commands = [kinit]
             zkcli = "%s/zkCli.sh -server %s:2181" % (zkCliPath, host)
             for cmd in cmdList:
                 commands.append("echo %s | %s" % (cmd, zkcli))
-            contents = runCmd.run_all_check_command(commands, logName)
-            # for i in range(1, len(contents)):
-            #     contents[i][0] = cmds[i - 1]
-            res = opf.Formatter().formatted_output("ZooKeeper on %s" % host, header, contents)
+            contents, status = runCmd.run_all_check_command(commands, logName)
+            if status == "SICK":
+                sickNum += 1
+            for i in range(1, len(contents)):
+                contents[i][0] = commands[i - 1]
+            res = opf.Formatter().formatted_output("ZooKeeper on %s: %s" % (host, status), header, contents)
             print res
 
 
-def testHdfs(kinit, header, hosts, logName="hdfs", cmdPath="cmd/hdfs"):
+def testHdfs(kinit, header, hosts, paDirName, logName="hdfs", cmdPath="cmd/hdfs"):
     """To test HDFS and print test result."""
     for fp in os.listdir(cmdPath):
         cmdList = getCmdsFromFile(path="%s/%s" % (cmdPath, fp))
         for host in hosts:
             commands = [kinit]
             for cmd in cmdList:
-                commands.append(cmd)
-            contents = runCmd.run_all_check_command(commands, logName)
-            res = opf.Formatter().formatted_output("Active NameNode on %s" % host, header, contents)
+                commands.append(str(cmd).replace("check_hdfs", paDirName))
+            contents, status = runCmd.run_all_check_command(commands, logName)
+            res = opf.Formatter().formatted_output("Active NameNode on %s: %s" % (host, status), header, contents)
             print res
 
 
@@ -54,8 +61,8 @@ def testYarn(kinit, header, hosts, logName="yarn", cmdPath="cmd/yarn"):
             commands = [kinit]
             for cmd in cmdList:
                 commands.append(cmd)
-            contents = runCmd.run_all_check_command(commands, logName)
-            res = opf.Formatter().formatted_output("Yarn on %s" % host, header, contents)
+            contents, status = runCmd.run_all_check_command(commands, logName)
+            res = opf.Formatter().formatted_output("Yarn on %s: %s" % (host, status), header, contents)
             print res
 
 
@@ -79,24 +86,24 @@ def testHyperbase(kinit, header, hosts, logName="hbase", cmdPath="cmd/hyperbase"
     if len(files) == 0 or files:
         print "No command to run. Please check your CMD-FILES in path '%s'" % cmdPath
         return
-    for h in hosts:
+    for host in hosts:
         commands = [kinit]
-        hbaseShell = "hbase --hosts %s shell" % h
+        hbaseShell = "hbase --hosts %s shell" % host
         for f in files:
             commands.append("%s %s/%s" % (hbaseShell, cmdPath, f))
-        contents = runCmd.run_all_check_command(commands, logName)
-        res = opf.Formatter().formatted_output("HyperBase on %s" % h, header, contents)
+        contents, status = runCmd.run_all_check_command(commands, logName)
+        res = opf.Formatter().formatted_output("HyperBase on %s: %s" % (host, status), header, contents)
         print res
 
 
 def testInceptorServer2(kinit, header, hosts, logName="hive", cmdPath="cmd/inceptor", database="default", realm="TDH"):
     """To test InceptorServer2 and print test result."""
     files = os.listdir(cmdPath)
-    for h in hosts:
+    for host in hosts:
         commands = [kinit]
-        beeline = "beeline -u \"jdbc:hive2://%s:10000/%s;principal=hive/%s@%s\"" % (h, database, h, realm)
+        beeline = "beeline -u \"jdbc:hive2://%s:10000/%s;principal=hive/%s@%s\"" % (host, database, host, realm)
         for f in files:
             commands.append("%s -f %s/%s" % (beeline, cmdPath, f))
-        contents = runCmd.run_all_check_command(commands, logName)
-        res = opf.Formatter().formatted_output("InceptorServer on %s" % h, header, contents)
+        contents, status = runCmd.run_all_check_command(commands, logName)
+        res = opf.Formatter().formatted_output("InceptorServer on %s: %s" % (host, status), header, contents)
         print res

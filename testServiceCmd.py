@@ -1,5 +1,7 @@
 #!/usr/bin/python
 import sys
+import getopt
+import time
 
 import service.serviceFunc as sf
 import util.configReader as cr
@@ -7,8 +9,8 @@ import util.cmdRunner as runCmd
 
 
 # zookeeper
-def zk():
-    print "\033[31m [ Start test zookeeper ] \033[0m"
+def zk(conf_file, rc, header, manager):
+    # print "\032[31m [ Start test zookeeper ] \032[0m"
     kinit = "kinit zookeeper/%s -kt /etc/zookeeper1/zookeeper.keytab" % manager
     hosts = str(rc.get(key="ZOOKEEPER")).split(",")
     if len(hosts) == 0 or (len(hosts) == 1 and hosts[0] == ""):
@@ -19,26 +21,28 @@ def zk():
 
 
 # HDFS
-def hdfs():
+def hdfs(conf_file, rc, header, manager):
     hosts = str(rc.get(key="HDFS_ACTIVENAMENODE")).split(",")
     if len(hosts) == 0 or (len(hosts) == 1 and hosts[0] == ""):
         print "Please check the value of the key 'HDFS_ACTIVENAMENODE' in your configure-file '%s'" % conf_file
         return
-    print "\033[31m [ Start test hdfs ] \033[0m"
+    # print "\033[31m [ Start test hdfs ] \033[0m"
     path = rc.get(key="path")
+    path += "_%s/" % time.strftime("%Y%m%d%H%M%s")
+    paths = str(path).split("/")
     originFile = rc.get(key="originFile")
     getFromHdfs_file = rc.get(key="getFromHdfs_file")
     write_words = rc.get(key="words")
     runCmd.prepareTestHdfs(path, write_words, originFile)
     kinit = "kinit hdfs/%s -kt /etc/hdfs1/hdfs.keytab" % manager
-    sf.testHdfs(kinit, header, hosts, logName="hdfs", cmdPath="cmd/hdfs")
+    sf.testHdfs(kinit, header, hosts, paths[len(paths) - 2], logName="hdfs", cmdPath="cmd/hdfs")
     runCmd.compare("%s/%s" % (path, originFile), "%s/%s" % (path, getFromHdfs_file))
     runCmd.deleteDir(path)
 
 
 # YARN
-def yarn():
-    print "\033[31m [ Start test yarn ] \033[0m"
+def yarn(conf_file, rc, header, manager):
+    # print "\033[31m [ Start test yarn ] \033[0m"
     kinit = "kinit yarn/%s -kt /etc/yarn1/yarn.keytab" % manager
     hosts = str(rc.get(key="YARN_RESOURCEMANAGER")).split(",")
     if len(hosts) == 0 or (len(hosts) == 1 and hosts[0] == ""):
@@ -49,8 +53,8 @@ def yarn():
 
 # HYPERBASE
 # sf.testHbase(this_host, header, rc, logName)
-def hyperbase():
-    print "\033[31m [ Start test hyperbase ] \033[0m"
+def hyperbase(conf_file, rc, header, manager):
+    # print "\033[31m [ Start test hyperbase ] \033[0m"
     kinit = "kinit hbase/%s -kt /etc/hyperbase1/hbase.keytab" % manager
     hosts = str(rc.get(key="HYPERBASE_MASTER")).split(",")
     if len(hosts) == 0 or (len(hosts) == 1 and hosts[0] == ""):
@@ -60,8 +64,8 @@ def hyperbase():
 
 
 # Inceptor
-def inceptor():
-    print "\033[31m [ Start test inceptor ] \033[0m"
+def inceptor(conf_file, rc, header, manager):
+    # print "\033[31m [ Start test inceptor ] \033[0m"
     kinit = "kinit hive/%s -kt /etc/inceptorsql1/hive.keytab" % manager
     hosts = str(rc.get(key="INCEPTOR_SERVER")).split(",")
     if len(hosts) == 0 or (len(hosts) == 1 and hosts[0] == ""):
@@ -70,33 +74,63 @@ def inceptor():
     sf.testInceptorServer2(kinit, header, hosts, logName="hive", cmdPath="cmd/inceptor", database=rc.get(key="DATABASE"), realm=rc.get(key="REALM"))
 
 
-conf_file = "conf/my-centos-cluster.conf"
-# rc = cr.ReadConf("conf/test-cluster.conf")
-rc = cr.ReadConf(conf_file)
-header = str(rc.get("HEADER")).split(",")
-manager = rc.get("MANAGER")
-# supportServiceList = ["ZOOKEEPER", "HDFS", "YARN", "HYPERBASE", "INCEPTOR"]
-argList = sys.argv
-if len(argList) == 1:
-    print "No argument, test all services commands."
-    zk()
-    hdfs()
-    yarn()
-    hyperbase()
-    inceptor()
-elif len(argList) > 1:
-    print "Start test services below:"
-    for i in range(1, len(argList)):
-        arg = str(argList[i]).upper()
-        if arg == "ZK" or arg == "ZOOKEEPER":
-            zk()
-        elif arg == "HDFS":
-            hdfs()
-        elif arg == "YARN":
-            yarn()
-        elif arg == "HBASE" or arg == "HYPERBASE":
-            hyperbase()
-        elif arg == "HIVE" or arg == "INCEPTOR":
-            inceptor()
+def main(this, argv):
+    help_msg = "%s -c [babylon | olympus | test | mine | xh] -s [ALL | zookeeper | hdfs | yarn | hbase | inceptor]" % this
+    cluster = ""
+    services = ""
+    conf_file = "conf/"
+    serviceList = None
+    # supportServiceList = ["ZOOKEEPER", "HDFS", "YARN", "HYPERBASE", "INCEPTOR"]
+    try:
+        opts, args = getopt.getopt(argv, "c:s:h", ["cluster=", "service=", "help"])
+    except getopt.GetoptError:
+        print help_msg
+        sys.exit(2)
+    if len(opts) == 0:
+        print help_msg
+        sys.exit(2)
+    for opt, arg in opts:
+        if opt in ("-c", "--cluster"):
+            cluster = arg
+        elif opt in ("-s", "--service"):
+            services += arg
+        elif opt in ("-h", "--help"):
+            print help_msg
+            sys.exit(0)
         else:
-            print "Sorry,", "'" + argList[i] + "'", "is not supported in current version."
+            print help_msg
+            sys.exit(2)
+    lowCluster = str(cluster).lower()
+    if lowCluster == "mine":
+        conf_file += "my-centos-cluster.conf"
+    elif lowCluster == "xh":
+        conf_file += "xh-cluster.conf"
+    else:
+        print "Unknown cluster, Exit."
+        sys.exit(2)
+    if services == "" or services.upper() == "ALL":
+        serviceList = ["ZOOKEEPER", "HDFS", "YARN", "HYPERBASE", "INCEPTOR"]
+    else:
+        serviceList = services.split(",")
+    rc = cr.ReadConf(conf_file)
+    header = str(rc.get("HEADER")).split(",")
+    manager = rc.get("MANAGER")
+    print "Start test services below:"
+    print serviceList
+    for s in serviceList:
+        arg = str(s).upper()
+        if arg == "ZOOKEEPER":
+            zk(conf_file, rc, header, manager)
+        elif arg == "HDFS":
+            hdfs(conf_file, rc, header, manager)
+        elif arg == "YARN":
+            yarn(conf_file, rc, header, manager)
+        elif arg in ("HBASE", "HYPERBASE"):
+            hyperbase(conf_file, rc, header, manager)
+        elif arg in ("HIVE", "INCEPTOR"):
+            inceptor(conf_file, rc, header, manager)
+        else:
+            print "Sorry,", "'" + s + "'", "is not supported in current version."
+
+if __name__ == "__main__":
+    main(sys.argv[0], sys.argv[1:])

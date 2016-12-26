@@ -1,6 +1,6 @@
 import commands as cmds
 import os
-import time
+import sys
 
 import util.logWriter as lw
 
@@ -8,10 +8,13 @@ import util.logWriter as lw
 def run_all_check_command(command_list, logName):
     """Run commands, return command && result list."""
     contentList = []
+    status = "HEALTHY"
     for c in command_list:
         array = cmds.getstatusoutput(c)
+        if array[0] != 0:
+            status = "SICK"
         contentList.append(check_status(c, array[0], array[1], logName))
-    return contentList
+    return contentList, status
 
 
 def check_status(command, stat, out, logName):
@@ -32,8 +35,8 @@ def check_status(command, stat, out, logName):
 def createDir(dirPath):
     """Create directories for hdfs test."""
     if os.path.exists(dirPath):
-        newDirPath = "/tmp/check_hdfs_%s/" % time.strftime("%Y%m%d%H%M%s")
-        createDir(newDirPath)
+        print "Local path", "'" + dirPath + "'", "already exists."
+        sys.exit(3)
     else:
         os.mkdir(dirPath)
 
