@@ -16,7 +16,7 @@ def testZookeeper(kinit, header, hosts, logName="zk", cmdPath="cmd/zookeeper", z
     :param kinit:
     :param header:
     :param hosts:
-    :param logName: logger in file: conf/logger.conf
+    :param logName: which logger in file 'conf/logger.conf'
     :param cmdPath:
     :param zkCliPath:
     """
@@ -65,20 +65,6 @@ def testYarn(kinit, header, hosts, logName="yarn", cmdPath="cmd/yarn"):
             res = opf.Formatter().formatted_output("Yarn on %s: %s" % (host, status), header, contents)
             print res
 
-
-# def testHbase(this_host, header, rc, logName):
-#     """To test HyperBase and print test result."""
-#     cmds = getCmdsFromFile(path="cmd/hyperbase")
-#     hosts = str(rc.get(key="HYPERBASE_MASTER")).split(",")
-#     kinit = "kinit hbase/%s -kt /etc/hyperbase1/hbase.keytab" % this_host
-#     for h in hosts:
-#         commands = [kinit]
-#         hbaseShell = "hbase --hosts %s shell |grep -v \"SLF4J\"|grep -v '^$'|grep -v \"row(s) in\"" % h
-#         for cmd in cmds:
-#             commands.append("echo %s | %s" % (cmd, hbaseShell))
-#         contents = c.run_all_check_command(commands, logName)
-#         res = opf.Formatter().formatted_output("HyperBase on %s" % h, header, contents)
-#         print res
 
 def testHyperbase(kinit, header, hosts, logName="hbase", cmdPath="cmd/hyperbase"):
     """To test HyperBase and print test result."""
