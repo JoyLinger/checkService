@@ -17,7 +17,7 @@ def zk(conf_file, rc, header, manager):
         print "Please check the value of the key 'ZOOKEEPER' in your configure-file '%s'" % conf_file
         return
     zkCliPath = rc.get("ZKCLI_PATH")
-    sf.testZookeeper(kinit, header, hosts, logName="zk", cmdPath="cmd/zookeeper", zkCliPath=zkCliPath)
+    sf.testZookeeper(kinit, header, hosts, logName="zookeeper", cmdPath="cmd/zookeeper", zkCliPath=zkCliPath)
 
 
 # HDFS

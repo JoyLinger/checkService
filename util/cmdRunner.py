@@ -13,12 +13,14 @@ def run_all_check_command(command_list, logName):
         array = cmds.getstatusoutput(c)
         if array[0] != 0:
             status = "SICK"
-        contentList.append(check_status(c, array[0], array[1], logName))
-    return contentList, status
+        list, logFilePath = check_status(c, array[0], array[1], logName)
+        contentList.append(list)
+    return contentList, status, logFilePath
 
 
 def check_status(command, stat, out, logName):
     """Write into log file and return every command && result as list"""
+    logFilePath = lw.Logger(logName).getLogger().handlers[0].baseFilename
     if stat == 0:
         lw.Logger(logName).getLogger().info("COMMAND: %s" % command)
         lw.Logger(logName).getLogger().info("OUTPUT : %s" % out)
@@ -29,7 +31,7 @@ def check_status(command, stat, out, logName):
     # if command.__contains__("echo"):
     #     command = command.split("echo")[1].split("|")[0]
     list = [command.strip(), "SUCCEEDED" if stat == 0 else "FAILED"]
-    return list
+    return list, logFilePath
 
 
 def createDir(dirPath):
