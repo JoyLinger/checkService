@@ -77,6 +77,7 @@ def inceptor(conf_file, rc, header, manager):
 
 def main(this, argv):
     help_msg = """Usage: %s [options...] arguments...
+
     -c,--cluster <cluster name>     Specify the cluster. The valid cluster
                                     name can be one of the following:
                                     BABYLON,OLYMPUS,TEST
