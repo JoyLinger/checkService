@@ -14,6 +14,7 @@ def runKinit(cmds, logName):
     elif status == "HEALTHY":
         return True
 
+
 def getCmdsFromFile(path):
     """Return commands as list."""
     return cr.ReadConf(path).getCmdList(key="cmd")

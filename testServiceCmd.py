@@ -2,6 +2,7 @@
 import sys
 import getopt
 import time
+import os
 
 import service.serviceFunc as sf
 import util.configReader as cr
@@ -75,17 +76,26 @@ def inceptor(conf_file, rc, header, manager):
 
 
 def main(this, argv):
-    help_msg = "%s -c [babylon | olympus | test | mine | xh] -s [ALL | zookeeper | hdfs | yarn | hbase | inceptor]" % this
+    help_msg = """Usage: %s [options...] arguments...
+    -c,--cluster <cluster name>     Specify the cluster. The valid cluster
+                                    name can be one of the following:
+                                    BABYLON,OLYMPUS,TEST
+    -s,--service <service name>     Specify the services to test. The valid
+                                    service name can be one or more than one
+                                    of the following: ALL,ZOOKEEPER,HDFS,
+                                    YARN,HBASE,INCEPTOR. But ALL must be used
+                                    all alone.
+    -h,--help                       Print help information."""\
+               % str(this).split("/")[len(str(this).split("/")) - 1]
     cluster = ""
     services = ""
-    conf_file = "conf/"
-    serviceList = None
+    conf_file = "%s/conf/" % os.getcwd()
     # supportServiceList = ["ZOOKEEPER", "HDFS", "YARN", "HYPERBASE", "INCEPTOR"]
     try:
         opts, args = getopt.getopt(argv, "c:s:h", ["cluster=", "service=", "help"])
     except getopt.GetoptError:
         print help_msg
-        sys.exit(2)
+        sys.exit(1)
     if len(opts) == 0:
         print help_msg
         sys.exit(2)
@@ -97,19 +107,21 @@ def main(this, argv):
         elif opt in ("-h", "--help"):
             print help_msg
             sys.exit(0)
-        else:
-            print help_msg
-            sys.exit(2)
-    lowCluster = str(cluster).lower()
-    if lowCluster == "mine":
+    upCluster = str(cluster).upper()
+    # my own test-cluster
+    if upCluster == "MINE":
         conf_file += "my-centos-cluster.conf"
-    elif lowCluster == "xh":
+    # transwarp test-cluster
+    elif upCluster == "XH":
         conf_file += "xh-cluster.conf"
     else:
         print "Unknown cluster, Exit."
-        sys.exit(2)
+        sys.exit(3)
     if services == "" or services.upper() == "ALL":
         serviceList = ["ZOOKEEPER", "HDFS", "YARN", "HYPERBASE", "INCEPTOR"]
+    elif services.upper().__contains__("ALL"):
+        print "ALL cannot be used with other arguments. Exit"
+        sys.exit(4)
     else:
         serviceList = services.split(",")
     rc = cr.ReadConf(conf_file)
