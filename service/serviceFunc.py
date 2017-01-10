@@ -54,7 +54,7 @@ def testZookeeper(kinit, header, hosts, logName="zookeeper", cmdPath="cmd/zookee
 def testHdfs(kinit, header, hosts, paDirName, logName="hdfs", cmdPath="cmd/hdfs"):
     """To test HDFS and print test result."""
     if not runKinit([kinit], logName):
-        return
+        return False
     for fp in os.listdir(cmdPath):
         cmdList = getCmdsFromFile(path="%s/%s" % (cmdPath, fp))
         for host in hosts:

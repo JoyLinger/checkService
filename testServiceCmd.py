@@ -36,8 +36,9 @@ def hdfs(conf_file, rc, header, manager):
     write_words = rc.get(key="words")
     runCmd.prepareTestHdfs(path, write_words, originFile)
     kinit = "kinit hdfs/%s -kt /etc/hdfs1/hdfs.keytab" % manager
-    sf.testHdfs(kinit, header, hosts, paths[len(paths) - 2], logName="hdfs", cmdPath="cmd/hdfs")
-    runCmd.compare("%s/%s" % (path, originFile), "%s/%s" % (path, getFromHdfs_file))
+    flag = sf.testHdfs(kinit, header, hosts, paths[len(paths) - 2], logName="hdfs", cmdPath="cmd/hdfs")
+    if flag is not False:
+        runCmd.compare("%s/%s" % (path, originFile), "%s/%s" % (path, getFromHdfs_file))
     runCmd.deleteDir(path)
 
 
